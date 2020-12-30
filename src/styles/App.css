@@ -87,7 +87,7 @@ video {
   }
 }
 @media screen and (max-width: 640px) {
-  img{
+  .centered-image{
     width: 100%;
     height: auto;
   }
