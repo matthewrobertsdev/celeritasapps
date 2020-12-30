@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 const FAQ_Page = () => {
-  useEffect(() => { document.title = "Clock Suite | FAQ" })
+  useEffect(() => { document.title = "Celeritas Apps | FAQ" })
   return (
     <main className={'main-background main-blue'}>
       <br></br>

@@ -14,7 +14,8 @@ const Header = () => {
   document.body.classList="blue"})
     return (
       <nav className={"navigation-bar blue"}>
-      <Link className={getClassNameLeft("/")} key={0} to="/">Clock Suite</Link>
+      <Link className={getClassNameLeft("/")} key={0} to="/">Celeritas Apps</Link>
+      <Link className={getClassNameLeft("/apps")} key={1} to="/apps">Apps</Link>
       <Link className={getClassNameLeft("/contact")} key={1} to="/contact">Contact</Link>
       <Link className={getClassNameLeft("/privacy")} key={2} to="/privacy">Privacy</Link>
       <Link className={getClassNameLeft("/faq")} key={3} to="/faq">FAQ</Link>

@@ -33,11 +33,31 @@ video {
 .main-text{
   font-size: large;
 }
-img {
+.icon-container {
+  text-align: center;
+}
+.centered-image {
   display: block;
   margin: auto;
   width: 640px;
   height: auto;
+}
+
+.icon-with-text {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+}
+
+.large-icon {
+  width: 200px;
+  height: 200px;
+}
+
+.inline-centered {
+  margin: auto;
+  display: inline-block;
 }
 
 .title {
