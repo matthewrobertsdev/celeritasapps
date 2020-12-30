@@ -56,7 +56,7 @@ const ClockSuitePage = () => {
         <div className="main-margin">
         <br></br>
         <h1 className="text-align-center title">
-            Clock Suite
+            Clock Suite for macOS
         </h1>
         <img src={GreenClockImage} className="centered-image" alt="Green Clock Suite"></img>
         <h2 className="text-align-center">

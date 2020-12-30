@@ -2,7 +2,7 @@
 import ClockSuite256 from "../resources/ClockSuite256.png";
 import ContactCards256 from "../resources/ContactCards256.png";
 import { Link } from 'react-router-dom';
-import AppIconLink from "../components/AppIconLink"
+import LargeAppIconLink from "../components/LargeAppIconLink"
 import PurpleClockImage from "../resources/DarkModeClockMedium/PurpleClockDark.png";
 
 import React, { useEffect } from 'react';
@@ -11,9 +11,9 @@ const HomePage = () => {
   return (<main className={'main-background main-blue'}>
     <br></br>
     <div className='icon-container'>
-      <AppIconLink image={ClockSuite256} relativeLink='/clocksuite'
+      <LargeAppIconLink image={ClockSuite256} relativeLink='/clocksuite'
         alt='Clock Suite App Icon' name='Clock Suite' />
-      <AppIconLink image={ContactCards256} relativeLink='/contactcards'
+      <LargeAppIconLink image={ContactCards256} relativeLink='/contactcards'
         alt='Contact Cards App Icon' name='Contact Cards' />
     </div>
     <br></br><br></br><br></br>
