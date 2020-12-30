@@ -49,7 +49,7 @@ import DockClockVideo from "../resources/DockClock.mp4";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
-const Home = () => {
+const ClockSuitePage = () => {
     useEffect(()=>{document.title = "Clock Suite"})
     return (<main>
       <div className={'main-background main-blue'}>
@@ -295,4 +295,4 @@ const Home = () => {
     </div>
     </main>);
 }
-export default Home;
+export default ClockSuitePage;

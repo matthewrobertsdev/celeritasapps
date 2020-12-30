@@ -33,6 +33,10 @@ video {
 .main-text{
   font-size: large;
 }
+.text{
+  font-size: large;
+  color: black;
+}
 .icon-container {
   text-align: center;
 }

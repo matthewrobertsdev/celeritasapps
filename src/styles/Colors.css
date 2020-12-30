@@ -42,7 +42,7 @@ background-color: rgb(230, 56, 56);
 }
 @media (prefers-color-scheme: dark){
 
-    body, .main-background, .navigation-bar, .top-navigation-link, .main-text {
+    body, .main-background, .navigation-bar, .top-navigation-link, .main-text, .text{
         color: white;
       }
       .bar-1, .bar-2, .change-bar-1, .change-bar-2{
