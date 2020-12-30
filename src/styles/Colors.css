@@ -45,7 +45,10 @@ background-color: rgb(230, 56, 56);
     body, .main-background, .navigation-bar, .top-navigation-link, .main-text, .text{
         color: white;
       }
-      .bar-1, .bar-2, .change-bar-1, .change-bar-2{
+    hr {
+      border-color: white;
+    }
+    .bar-1, .bar-2, .change-bar-1, .change-bar-2{
         background-color: white;
     }
     .red{

@@ -4,6 +4,9 @@ Copyright  © 2020  Matt Roberts
 .main-h-1{
   margin-left: 10%;
 }
+hr{
+  border-color: black;
+}
 .text-align-center{
   text-align: center;
 }
