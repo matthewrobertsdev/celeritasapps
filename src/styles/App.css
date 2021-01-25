@@ -96,6 +96,34 @@ video {
   height: auto;
 }
 
+.iPhone-media {
+  width: 40%;
+  max-width: 300px;
+  margin: 20px;
+}
+
+.tab {
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.selected-tab {
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
+  border-bottom: 3.5px solid black;
+}
+
+@media (prefers-color-scheme: dark){
+  .selected-tab {
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+    border-bottom: 3.5px solid white;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .hide-for-small{
     display: none;
@@ -118,6 +146,10 @@ video {
   }
   .carousel-style{
     width: 100%;
+    height: auto;
+  }
+  .iPhone-media {
+    width: 90%;
     height: auto;
   }
 }
