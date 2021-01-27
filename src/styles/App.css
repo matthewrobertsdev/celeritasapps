@@ -96,9 +96,30 @@ video {
   height: auto;
 }
 
+.iPhone-carousel {
+  display: block;
+  margin: auto;
+}
+
+.iPhone-carousel-media {
+  width: 40%;
+  max-width: 300px;
+}
+
+.iPad-carousel-media {
+  width: 80%;
+  max-width: 800px;
+}
+
 .iPhone-media {
   width: 40%;
   max-width: 300px;
+  margin: 20px;
+}
+
+.iPad-media {
+  width: 80%;
+  max-width: 800px;
   margin: 20px;
 }
 
@@ -149,6 +170,22 @@ video {
     height: auto;
   }
   .iPhone-media {
+    width: 90%;
+    height: auto;
+  }
+  .iPhone-media {
+    width: 90%;
+    height: auto;
+  }
+  .iPhone-carousel-media {
+    width: 90%;
+    height: auto;
+  }
+  .iPad-media {
+    width: 90%;
+    height: auto;
+  }
+  .iPad-carousel-media {
     width: 90%;
     height: auto;
   }

@@ -1,21 +1,24 @@
 //Copyright  © 2020  Matt Roberts
 import React, { useEffect, useState } from 'react';
 import ContactCardsMobileView from '../components/ContactCardsMobileView'
+import ContactCardsTabletView from '../components/ContactCardsTabletView'
 
 const contactCardsInfo={
   title: 'Contact Cards',
   header: `Have more than one contact card for yourself so you 
-  can share what you want with whom you want.  Share virtually or 
-  with a QR code.`,
-  header2: `Want to have more than one contact card for yourself, 
-  and choose which you share with whom?  Contact Cards lets you 
-  do just that.  It allows you to conveniently share different 
-  contact cards with different people.  Within the app, you 
-  give the card a title and a color, but when you share it 
-  virtually, whomever you are sharing it with will see none 
-  of that.  No one has to have the app for you to give them 
-  your contact.  Take control of your privacy with the 
-  convenience of Contact Cards.`
+  can share what you want with whom you want, whether or not they 
+  have the app.  Share virtually or with a QR code.`,
+  qrCode: `When sharing with QR Codes, you can share with colorful QR
+  codes.  No neeed to be constrained to black and white.`,
+  sharableInfo: `Shareable information is: first name, last name, nickname,
+  suffix, prefix, company, job title, department, mobile phone, 2 work phones,
+  home phone, other phone, home email, 2 work emails, other email, Twitter username,
+  Facebook URL, LinkedIn URL, home URL, 2 work URLs, 2 other URLs, home address,
+  work address, other address.`,
+  colors: `Color choices are white in dark mode/black in light mode, gray, 
+  red, orange, yellow, green, blue, purple, pink, and pruple.  Please note: 
+  color choices are private to you and will not share when you share the 
+  contact as a file, whether virtually or in a QR code.`
 }
 const ContactCardsPage = () => {
   useEffect(()=>{document.title = "Contact Cards"})
@@ -53,7 +56,7 @@ const ContactCardsPage = () => {
       if (currentTab==='mobile') {
         return (<ContactCardsMobileView info={contactCardsInfo}/>);
       } else if (currentTab==='tablet') {
-        return (<div></div>);
+        return (<ContactCardsTabletView info={contactCardsInfo}/>);
       } else if (currentTab==='desktop') {
         return (<div></div>);
       } else {

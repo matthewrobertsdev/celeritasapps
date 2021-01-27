@@ -4,9 +4,9 @@ import ContactCards256 from "../resources/ContactCards256.png";
 import { Link } from 'react-router-dom';
 import LargeAppIconLink from "../components/LargeAppIconLink"
 import PurpleClockImage from "../resources/DarkModeClockMedium/PurpleClockDark.png";
-import ContactCardsMain from "../resources/ContactCardsMain.png";
-import ContactCardsDetail from "../resources/ContactCardsDetail.png";
-import ContactCardsQRCode from "../resources/ContactCardsQRCode.png";
+import ContactCardsMain from "../resources/ContactCardsiPhone/ContactCardsMain.png";
+import ContactCardsDetail from "../resources/ContactCardsiPhone/ContactCardsDetail.png";
+import ContactCardsQRCode from "../resources/ContactCardsiPhone/ContactCardsQRCode.png";
 
 
 
