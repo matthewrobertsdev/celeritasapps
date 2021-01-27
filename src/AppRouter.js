@@ -4,17 +4,19 @@ import {Route, Switch, HashRouter } from 'react-router-dom';
 import Header from './components/Header';
 import HomePage from './pages/HomePage'
 import AppsPage from './pages/AppsPage'
-import ClockSuitePage from './pages/ClockSuitePage';
-import ContactCardsPage from './pages/ContactCardsPage';
-import ContactPage from './pages/ContactPage';
-import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
-import FAQ_Page from './pages/FAQ_Page';
+import ClockSuitePage from './pages/ClockSuitePage'
+import ContactCardsPage from './pages/ContactCardsPage'
+import ContactPage from './pages/ContactPage'
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
+import FAQ_Page from './pages/FAQ_Page'
+import ScrollToTop from './components/ScrollToTop'
 
-import Footer from './components/Footer';
+import Footer from './components/Footer'
 const AppRouter = () => {
     return (
         <HashRouter basename='/'>
                 <Header />
+                <ScrollToTop/>
                 <Switch>
                 <Route path="/" exact component={HomePage} />
                     {/*<Route path="/about" exact component={AboutPage} />*/}

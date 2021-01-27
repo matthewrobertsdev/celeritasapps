@@ -2,14 +2,16 @@
 import React, { useEffect, useState } from 'react';
 import ContactCardsMobileView from '../components/ContactCardsMobileView'
 import ContactCardsTabletView from '../components/ContactCardsTabletView'
+import ContactCardsDesktopView from '../components/ContactCardsDesktopView'
 
 const contactCardsInfo={
   title: 'Contact Cards',
-  header: `Have more than one contact card for yourself so you 
+  header: `Have multiple color-coded contact cards for yourself so you 
   can share what you want with whom you want, whether or not they 
   have the app.  Share virtually or with a QR code.`,
   qrCode: `When sharing with QR Codes, you can share with colorful QR
-  codes.  No neeed to be constrained to black and white.`,
+  codes.  No neeed to be constrained to black and white.  Your color and 
+  filename for the contact card will not be shared.`,
   sharableInfo: `Shareable information is: first name, last name, nickname,
   suffix, prefix, company, job title, department, mobile phone, 2 work phones,
   home phone, other phone, home email, 2 work emails, other email, Twitter username,
@@ -58,7 +60,7 @@ const ContactCardsPage = () => {
       } else if (currentTab==='tablet') {
         return (<ContactCardsTabletView info={contactCardsInfo}/>);
       } else if (currentTab==='desktop') {
-        return (<div></div>);
+        return (<ContactCardsDesktopView info={contactCardsInfo}/>);
       } else {
         return (<div></div>);
       }
