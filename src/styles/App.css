@@ -136,6 +136,11 @@ video {
   border-bottom: 3.5px solid black;
 }
 
+.app-store-badge {
+  height: 60px;
+  width: 236px;
+}
+
 @media (prefers-color-scheme: dark){
   .selected-tab {
     font-size: 20px;

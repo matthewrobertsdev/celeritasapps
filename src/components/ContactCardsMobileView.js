@@ -1,6 +1,8 @@
 import React from 'react'
 import ContactCardsMain from "../resources/ContactCardsiPhone/ContactCardsMain.png";
 import ContactCardsQRCode from "../resources/ContactCardsiPhone/ContactCardsQRCode.png";
+import ContactCardsDetail from "../resources/ContactCardsiPhone/ContactCardsDetail.png";
+
 import { Carousel } from 'react-responsive-carousel';
 import ContactCardsFields1 from "../resources/ContactCardsiPhone/ContactCardsFields1.png";
 import ContactCardsFields2 from "../resources/ContactCardsiPhone/ContactCardsFields2.png";
@@ -11,10 +13,14 @@ import ContactCardColors from "../resources/ContactCardsiPhone/ContactCardsColor
 const ContactCardsMobileView=(props) => {
   return (
     <div className='text-align-center'>
-      <img src={ContactCardsMain} className="iPhone-media" alt="Contact Cards"></img>
+      <img src={ContactCardsMain} className="iPhone-media" alt="Contact Cards Table View"></img>
       <h2 className="text-align-center">
           {props.info.header}
       </h2>
+      <img src={ContactCardsDetail} className="iPhone-media" alt="Contact Card Detail"></img>
+      <h3 className="text-align-center">
+        {props.info.detail}
+      </h3>
       <img src={ContactCardsQRCode} className="iPhone-media" alt="Contact QR Code"></img>
       <h3 className="text-align-center">
         {props.info.qrCode}

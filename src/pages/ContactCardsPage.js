@@ -9,6 +9,7 @@ const contactCardsInfo={
   header: `Have multiple color-coded contact cards for yourself so you 
   can share what you want with whom you want, whether or not they 
   have the app.  Share virtually or with a QR code.`,
+  detail: `Preview a contact card before sharing it.`,
   qrCode: `When sharing with QR Codes, you can share with colorful QR
   codes.  No neeed to be constrained to black and white.  Your color and 
   filename for the contact card will not be shared.`,
