@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/celeritasapps/static/css/main.88c16ee8.chunk.css",
-    "main.js": "/celeritasapps/static/js/main.8fdbd806.chunk.js",
-    "main.js.map": "/celeritasapps/static/js/main.8fdbd806.chunk.js.map",
+    "main.js": "/celeritasapps/static/js/main.8788810f.chunk.js",
+    "main.js.map": "/celeritasapps/static/js/main.8788810f.chunk.js.map",
     "runtime-main.js": "/celeritasapps/static/js/runtime-main.f55275f0.js",
     "runtime-main.js.map": "/celeritasapps/static/js/runtime-main.f55275f0.js.map",
     "static/css/2.55d8add8.chunk.css": "/celeritasapps/static/css/2.55d8add8.chunk.css",
@@ -25,7 +25,7 @@
     "static/media/ClockShowHideDate.f639f15e.png": "/celeritasapps/static/media/ClockShowHideDate.f639f15e.png",
     "static/media/ClockShowHideSeconds.5090717d.mp4": "/celeritasapps/static/media/ClockShowHideSeconds.5090717d.mp4",
     "static/media/ClockSuite256.a4fcb570.png": "/celeritasapps/static/media/ClockSuite256.a4fcb570.png",
-    "static/media/ContactCards256.0635ab2e.png": "/celeritasapps/static/media/ContactCards256.0635ab2e.png",
+    "static/media/ContactCards256.caed3e3b.png": "/celeritasapps/static/media/ContactCards256.caed3e3b.png",
     "static/media/ContactCardsColors.241c4fb1.png": "/celeritasapps/static/media/ContactCardsColors.241c4fb1.png",
     "static/media/ContactCardsColors.7cda729f.png": "/celeritasapps/static/media/ContactCardsColors.7cda729f.png",
     "static/media/ContactCardsColors.9037d74f.png": "/celeritasapps/static/media/ContactCardsColors.9037d74f.png",
@@ -46,6 +46,9 @@
     "static/media/ContactCardsQRCode.2f6ba3d7.png": "/celeritasapps/static/media/ContactCardsQRCode.2f6ba3d7.png",
     "static/media/ContactCardsQRCode.c3b3be3e.png": "/celeritasapps/static/media/ContactCardsQRCode.c3b3be3e.png",
     "static/media/ContactCardsQRCode.d3dc7a1a.png": "/celeritasapps/static/media/ContactCardsQRCode.d3dc7a1a.png",
+    "static/media/ContactCardsWidget.7b0a8230.png": "/celeritasapps/static/media/ContactCardsWidget.7b0a8230.png",
+    "static/media/ContactCardsWidget.943c0042.png": "/celeritasapps/static/media/ContactCardsWidget.943c0042.png",
+    "static/media/ContactCardsWidget.f4acd02f.png": "/celeritasapps/static/media/ContactCardsWidget.f4acd02f.png",
     "static/media/CustomColorClockDark.c29eb3db.png": "/celeritasapps/static/media/CustomColorClockDark.c29eb3db.png",
     "static/media/CustomColorClockLight.bb01259e.png": "/celeritasapps/static/media/CustomColorClockLight.bb01259e.png",
     "static/media/DockClock.31e9c73a.mp4": "/celeritasapps/static/media/DockClock.31e9c73a.mp4",
@@ -77,6 +80,6 @@
     "static/css/2.55d8add8.chunk.css",
     "static/js/2.d1f374b9.chunk.js",
     "static/css/main.88c16ee8.chunk.css",
-    "static/js/main.8fdbd806.chunk.js"
+    "static/js/main.8788810f.chunk.js"
   ]
 }
