@@ -7,6 +7,8 @@ import ContactCardsFields2 from "../resources/ContactCardsMac/ContactCardsFields
 import ContactCardsFields3 from "../resources/ContactCardsMac/ContactCardsFields3.png";
 import ContactCardsFields4 from "../resources/ContactCardsMac/ContactCardsFields3.png";
 import ContactCardColors from "../resources/ContactCardsMac/ContactCardsColors.png";
+import ContactCardsWidget from "../resources/ContactCardsMac/ContactCardsWidget.png";
+
 
 const ContactCardsTabletView=(props) => {
   return (
@@ -41,6 +43,10 @@ const ContactCardsTabletView=(props) => {
       <img src={ContactCardColors} className="iPad-media" alt="Contact Cards color choices"></img>
       <h3 className="text-align-center">
         {props.info.colors}
+      </h3>
+      <img src={ContactCardsWidget} className="iPad-media" alt="Contact Cards widget"></img>
+      <h3 className="text-align-center">
+        {props.info.widget}
       </h3>
       <br/><br/><br/>
     </div>

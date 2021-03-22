@@ -19,9 +19,10 @@ const contactCardsInfo={
   Facebook URL, LinkedIn URL, home URL, 2 work URLs, 2 other URLs, home address,
   work address, other address.`,
   colors: `Color choices are white in dark mode/black in light mode, gray, 
-  red, orange, yellow, green, blue, purple, pink, and pruple.  Please note: 
+  red, orange, yellow, green, blue, purple, pink, and brown.  Please note: 
   color choices are private to you and will not share when you share the 
-  contact as a file, whether virtually or in a QR code.`
+  contact as a file, whether virtually or in a QR code.`,
+  widget: `Comes with a widget to display a qr code for a contact card of your choosing.`
 }
 const ContactCardsPage = () => {
   useEffect(()=>{document.title = "Contact Cards"})

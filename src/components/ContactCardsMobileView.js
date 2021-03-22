@@ -9,6 +9,8 @@ import ContactCardsFields2 from "../resources/ContactCardsiPhone/ContactCardsFie
 import ContactCardsFields3 from "../resources/ContactCardsiPhone/ContactCardsFields3.png";
 import ContactCardsFields4 from "../resources/ContactCardsiPhone/ContactCardsFields4.png";
 import ContactCardColors from "../resources/ContactCardsiPhone/ContactCardsColors.png";
+import ContactCardsWidget from "../resources/ContactCardsiPhone/ContactCardsWidget.png";
+
 
 const ContactCardsMobileView=(props) => {
   return (
@@ -47,6 +49,10 @@ const ContactCardsMobileView=(props) => {
       <img src={ContactCardColors} className="iPhone-media" alt="Contact Cards color choices"></img>
       <h3 className="text-align-center">
         {props.info.colors}
+      </h3>
+      <img src={ContactCardsWidget} className="iPhone-media" alt="Contact Cards widget"></img>
+      <h3 className="text-align-center">
+        {props.info.widget}
       </h3>
       <br/><br/><br/>
     </div>
