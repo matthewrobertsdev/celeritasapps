@@ -9,6 +9,8 @@ import ContactCardsPage from './pages/ContactCardsPage'
 import ContactPage from './pages/ContactPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
 import FAQ_Page from './pages/FAQ_Page'
+import ClockSuite_FAQ_Page from './pages/ClockSuite_FAQ_Page'
+import ContactCards_FAQ_Page from './pages/ContactCards_FAQ_Page'
 import ScrollToTop from './components/ScrollToTop'
 
 import Footer from './components/Footer'
@@ -26,6 +28,8 @@ const AppRouter = () => {
                     <Route path="/contact" exact component={ContactPage} />
                     <Route path="/privacy" exact component={PrivacyPolicyPage} />
                     <Route path="/faq" exact component={FAQ_Page} />
+                    <Route path="/faq/clocksuite" exact component={ClockSuite_FAQ_Page} />
+                    <Route path="/faq/contactcards" exact component={ContactCards_FAQ_Page} />
                     <Route component={HomePage} />
                 </Switch>
                 <Footer/>
