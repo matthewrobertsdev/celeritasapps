@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/celeritasapps/static/css/main.20f3b11b.chunk.css",
-    "main.js": "/celeritasapps/static/js/main.9bce0954.chunk.js",
-    "main.js.map": "/celeritasapps/static/js/main.9bce0954.chunk.js.map",
+    "main.js": "/celeritasapps/static/js/main.3205788f.chunk.js",
+    "main.js.map": "/celeritasapps/static/js/main.3205788f.chunk.js.map",
     "runtime-main.js": "/celeritasapps/static/js/runtime-main.f55275f0.js",
     "runtime-main.js.map": "/celeritasapps/static/js/runtime-main.f55275f0.js.map",
     "static/css/2.55d8add8.chunk.css": "/celeritasapps/static/css/2.55d8add8.chunk.css",
@@ -28,7 +28,7 @@
     "static/media/ContactCards256.caed3e3b.png": "/celeritasapps/static/media/ContactCards256.caed3e3b.png",
     "static/media/ContactCardsDetail.1ca44197.png": "/celeritasapps/static/media/ContactCardsDetail.1ca44197.png",
     "static/media/ContactCardsFields1.473d20c9.png": "/celeritasapps/static/media/ContactCardsFields1.473d20c9.png",
-    "static/media/ContactCardsFields1.e603c12c.png": "/celeritasapps/static/media/ContactCardsFields1.e603c12c.png",
+    "static/media/ContactCardsFields1.e40f17c9.png": "/celeritasapps/static/media/ContactCardsFields1.e40f17c9.png",
     "static/media/ContactCardsFields2.9dcca8b6.png": "/celeritasapps/static/media/ContactCardsFields2.9dcca8b6.png",
     "static/media/ContactCardsFields2.e51621d8.png": "/celeritasapps/static/media/ContactCardsFields2.e51621d8.png",
     "static/media/ContactCardsFields3.9fdf9069.png": "/celeritasapps/static/media/ContactCardsFields3.9fdf9069.png",
@@ -84,6 +84,6 @@
     "static/css/2.55d8add8.chunk.css",
     "static/js/2.18684384.chunk.js",
     "static/css/main.20f3b11b.chunk.css",
-    "static/js/main.9bce0954.chunk.js"
+    "static/js/main.3205788f.chunk.js"
   ]
 }
