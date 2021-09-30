@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import ClockSuite256 from "../resources/ClockSuite256.png";
-import ContactCards256 from "../resources/ContactCards256.png";
 import AppIconWithTitle from '../components/AppIconWithTitle'
 const FAQ_Page = () => {
   useEffect(() => { document.title = "Celeritas Apps | FAQ" })
