@@ -47,11 +47,13 @@ const ContactCardsPage = () => {
         <h1 className="text-align-center title">
           Contact Cards
         </h1>
-        <div className="text-align-center">
+        <div className="text-align-center tab-container">
+        <div className="tab">
           <span className={getTabClassName('mobile')} onClick={()=>setCurrentTab('mobile')}>Mobile</span>
           <span className={getTabClassName('tablet')} onClick={()=>setCurrentTab('tablet')}>Tablet</span>
           <span className={getTabClassName('watch')} onClick={()=>setCurrentTab('watch')}>Watch</span>
           <span className={getTabClassName('desktop')} onClick={()=>setCurrentTab('desktop')}>Desktop</span>
+        </div>
         </div>
         <br/>
         <hr/>
