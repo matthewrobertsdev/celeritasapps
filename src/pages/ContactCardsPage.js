@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import ContactCardsMobileView from '../components/ContactCardsMobileView'
 import ContactCardsTabletView from '../components/ContactCardsTabletView'
 import ContactCardsWatchView from '../components/ContactCardsWatchView'
-
+import ContactCardsDesktopView from '../components/ContactCardsDesktopView'
 
 const contactCardsInfo={
   title: 'Contact Cards',
@@ -51,6 +51,7 @@ const ContactCardsPage = () => {
           <span className={getTabClassName('mobile')} onClick={()=>setCurrentTab('mobile')}>Mobile</span>
           <span className={getTabClassName('tablet')} onClick={()=>setCurrentTab('tablet')}>Tablet</span>
           <span className={getTabClassName('watch')} onClick={()=>setCurrentTab('watch')}>Watch</span>
+          <span className={getTabClassName('desktop')} onClick={()=>setCurrentTab('desktop')}>Desktop</span>
         </div>
         <br/>
         <hr/>
@@ -75,7 +76,9 @@ const ContactCardsPage = () => {
         return (<ContactCardsTabletView info={contactCardsInfo}/>);
       } else if (currentTab==='watch') {
         return (<ContactCardsWatchView info={contactCardsWatchInfo}/>);
-      } else {
+      } else if (currentTab==='desktop') {
+        return (<ContactCardsDesktopView info={contactCardsInfo}/>);
+      }else {
         return (<div></div>);
       }
     }
