@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/celeritasapps/static/css/main.1777b158.chunk.css",
+    "main.css": "/celeritasapps/static/css/main.cea47e41.chunk.css",
     "main.js": "/celeritasapps/static/js/main.8e0fc85f.chunk.js",
     "main.js.map": "/celeritasapps/static/js/main.8e0fc85f.chunk.js.map",
     "runtime-main.js": "/celeritasapps/static/js/runtime-main.f55275f0.js",
@@ -10,7 +10,7 @@
     "static/js/2.d1f374b9.chunk.js.map": "/celeritasapps/static/js/2.d1f374b9.chunk.js.map",
     "index.html": "/celeritasapps/index.html",
     "static/css/2.55d8add8.chunk.css.map": "/celeritasapps/static/css/2.55d8add8.chunk.css.map",
-    "static/css/main.1777b158.chunk.css.map": "/celeritasapps/static/css/main.1777b158.chunk.css.map",
+    "static/css/main.cea47e41.chunk.css.map": "/celeritasapps/static/css/main.cea47e41.chunk.css.map",
     "static/js/2.d1f374b9.chunk.js.LICENSE.txt": "/celeritasapps/static/js/2.d1f374b9.chunk.js.LICENSE.txt",
     "static/media/AlarmSetUp.9cacb576.png": "/celeritasapps/static/media/AlarmSetUp.9cacb576.png",
     "static/media/AnalogClock.388ebe70.png": "/celeritasapps/static/media/AnalogClock.388ebe70.png",
@@ -94,7 +94,7 @@
     "static/js/runtime-main.f55275f0.js",
     "static/css/2.55d8add8.chunk.css",
     "static/js/2.d1f374b9.chunk.js",
-    "static/css/main.1777b158.chunk.css",
+    "static/css/main.cea47e41.chunk.css",
     "static/js/main.8e0fc85f.chunk.js"
   ]
 }
