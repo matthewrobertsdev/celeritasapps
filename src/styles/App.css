@@ -33,6 +33,7 @@ video {
 }
 .ten-percent-margin{
   margin-left: 10%;
+  margin-right: 10%;
 }
 .menu-bar-container {
   display: block;
@@ -194,6 +195,10 @@ video {
     font-size: 40px;
     font-weight: 600;
   }
+  .heading {
+    font-size: 30px;
+    font-weight: 600;
+  }
 }
 @media screen and (max-width: 640px) {
   .centered-image{
@@ -234,6 +239,10 @@ video {
   }
   .title {
     font-size: 40px;
+    font-weight: 600;
+  }
+  .heading {
+    font-size: 30px;
     font-weight: 600;
   }
 }

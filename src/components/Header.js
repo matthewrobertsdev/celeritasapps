@@ -1,8 +1,12 @@
 //Copyright  © 2020  Matt Roberts
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import {useSelector } from 'react-redux'
 import {displayMenu} from '../store/DefaultReducerActions'
 import { withRouter, Link, useLocation } from 'react-router-dom';
+import {useWindowDimensions} from '../utils/useWindowDimensions';
+import { IoIosMenu } from "react-icons/io";
+import { IoIosClose } from "react-icons/io";
+import { IconContext } from "react-icons";
 import '../styles/App.css'
 import '../styles/NavigationStyle.css'
 import '../styles/Colors.css'
@@ -12,14 +16,48 @@ const Header = () => {
   useEffect(()=> {
   window.addEventListener('resize', () => closeMenuAsNeeded());
   document.body.classList="blue"})
+
+  const windowWidth=useWindowDimensions().width;
+
+  const [menuShown, setMenuShown]=useState(false)
+
+  if (windowWidth<440) {
     return (
-      <nav className={"navigation-bar blue"}>
-      <Link className={getClassNameLeft("/")} key={0} to="/">Celeritas Apps</Link>
-      <Link className={getClassNameLeft("/apps")} key={1} to="/apps">Apps</Link>
-      <Link className={getClassNameLeft("/contact")} key={2} to="/contact">Contact</Link>
-      <Link className={getClassNameLeft("/privacy")} key={3} to="/privacy">Privacy</Link>
-      <Link className={getClassNameLeft("/faq")} key={4} to="/faq">FAQ</Link>
-    </nav>)
+      <span>
+        <nav className={"navigation-bar blue"}>
+        <Link className={getClassNameLeft("/")} key={0} to="/">Celeritas Apps</Link>
+        {/*<IconContext.Provider value={{ color: "white", className: "show-or-hide-menu float-right" }}>
+        <IoIosClose onClick={()=>setMenuShown(!menuShown)}/>
+        </IconContext.Provider>
+    */}
+        </nav>
+        <nav className={"navigation-menu blue"}>
+        <Link className={getClassNameLeft("/apps")} key={1} to="/apps">Apps</Link>
+        <Link className={getClassNameLeft("/contact")} key={2} to="/contact">Contact</Link>
+        <Link className={getClassNameLeft("/privacy")} key={3} to="/privacy">Privacy</Link>
+        <Link className={getClassNameLeft("/faq")} key={4} to="/faq">FAQ</Link>
+      </nav>
+      </span>
+      )
+  } /*else if (windowWidth<440 && !menuShown) {
+    return (
+        <nav className={"navigation-bar blue"}>
+          <Link className={getClassNameLeft("/")} key={0} to="/">Celeritas Apps</Link>
+          <IconContext.Provider value={{ color: "white", className: "show-or-hide-menu float-right" }}>
+        <IoIosMenu onClick={()=>setMenuShown(!menuShown)}/>
+        </IconContext.Provider>
+        </nav>
+        )
+  } */else {
+      return (
+        <nav className={"navigation-bar blue"}>
+        <Link className={getClassNameLeft("/")} key={0} to="/">Celeritas Apps</Link>
+        <Link className={getClassNameLeft("/apps")} key={1} to="/apps">Apps</Link>
+        <Link className={getClassNameLeft("/contact")} key={2} to="/contact">Contact</Link>
+        <Link className={getClassNameLeft("/privacy")} key={3} to="/privacy">Privacy</Link>
+        <Link className={getClassNameLeft("/faq")} key={4} to="/faq">FAQ</Link>
+      </nav>)
+  }
     function closeMenuAsNeeded(){
       if(menuDisplayed&&window.innerWidth>600){
         displayMenu(false)
