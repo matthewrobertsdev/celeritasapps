@@ -31,7 +31,7 @@ const contactCardsInfo={
 const contactCardsWatchInfo={
   title: `Contact Cards Watch Companion App`,
   header: `Share small contact cards directly from your watch by colorful QR code.  
-  App syncs over iCloud to get your contact cards from the ContactCards app from 
+  App syncs over iCloud to get your contact cards from the Contact Cards app from 
   your phone or tablet.`,
   detail: `See contact details directly from the watch so that you can confirm 
   that you are sharing what you want to share.`

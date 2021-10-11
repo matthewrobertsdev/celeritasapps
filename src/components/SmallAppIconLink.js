@@ -2,7 +2,7 @@
 import React from 'react';
 import {HashLink} from 'react-router-hash-link'
 const SmallAppIconLink = (props) => {
-    return (<div className='ten-percent-margin'>
+    return (<div className='ten-percent-margin flex-center'>
     <HashLink to={props.relativeLink}>
       <img src={props.image} className='small-icon' alt={props.alt}/>
     </HashLink>

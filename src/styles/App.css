@@ -1,8 +1,12 @@
 /*
 Copyright  © 2020  Matt Roberts
 */
-.main-h-1{
+.main-h-1 {
   margin-left: 10%;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
 }
 hr{
   border-color: black;
@@ -49,6 +53,8 @@ video {
 }
 .icon-container {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .centered-image {
   display: block;
@@ -62,6 +68,8 @@ video {
   display: inline-block;
   text-align: center;
   width: 200px;
+  display: flex;
+  flex-direction: column;
 }
 
 .large-icon {
@@ -178,6 +186,14 @@ video {
   .main-text{
     font-size: large;
   }
+  .large-icon {
+    width: 100px;
+    height: 100px;
+  }
+  .title {
+    font-size: 40px;
+    font-weight: 600;
+  }
 }
 @media screen and (max-width: 640px) {
   .centered-image{
@@ -211,6 +227,14 @@ video {
   .iPad-carousel-media {
     width: 90%;
     height: auto;
+  }
+  .large-icon {
+    width: 100px;
+    height: 100px;
+  }
+  .title {
+    font-size: 40px;
+    font-weight: 600;
   }
 }
 /*
