@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/celeritasapps/static/css/main.edb60f6e.chunk.css",
-    "main.js": "/celeritasapps/static/js/main.3fb3140d.chunk.js",
-    "main.js.map": "/celeritasapps/static/js/main.3fb3140d.chunk.js.map",
+    "main.js": "/celeritasapps/static/js/main.fcb6006d.chunk.js",
+    "main.js.map": "/celeritasapps/static/js/main.fcb6006d.chunk.js.map",
     "runtime-main.js": "/celeritasapps/static/js/runtime-main.f55275f0.js",
     "runtime-main.js.map": "/celeritasapps/static/js/runtime-main.f55275f0.js.map",
     "static/css/2.55d8add8.chunk.css": "/celeritasapps/static/css/2.55d8add8.chunk.css",
@@ -95,6 +95,6 @@
     "static/css/2.55d8add8.chunk.css",
     "static/js/2.4ab8c469.chunk.js",
     "static/css/main.edb60f6e.chunk.css",
-    "static/js/main.3fb3140d.chunk.js"
+    "static/js/main.fcb6006d.chunk.js"
   ]
 }
