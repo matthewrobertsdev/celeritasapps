@@ -13,7 +13,12 @@ Copyright  © 2020  Matt Roberts
   text-decoration: none;
   }
 
-  @media screen and (max-width: 440px) {
+  .selected-navigation-item{
+    border-bottom: 3.5px solid black;
+    padding: 14px 16px 10.5px 16px;
+  }
+
+  @media screen and (max-width: 500px) {
     .top-navigation-item {
       float: left;
       display: block;
@@ -22,15 +27,14 @@ Copyright  © 2020  Matt Roberts
       padding: 14px 8px 14px 8px;
       text-decoration: none;
       }
+      .selected-navigation-item{
+        border-bottom: 3.5px solid black;
+        padding: 14px 8px 10.5px 8px;
+      }
   }
   .navigation-menu {
     overflow: hidden;
     display: flex;
-  }
-
-  .selected-navigation-item{
-    border-bottom: 3.5px solid black;
-    padding: 14px 8px 10.5px 8px;
   }
   
   .top-navigation-link {
