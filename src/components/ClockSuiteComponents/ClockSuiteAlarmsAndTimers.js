@@ -10,7 +10,7 @@ import TimerSetUpImage from "../../resources/TimerSetUp.png";
 import UseTimerImage from "../../resources/UseTimer.png";
 import UseTimerVideo from "../../resources/UseTimer.mp4";
 
-import TimerImage from "../../resources/LightTimer.png";
+import TimerImage from "../../resources/DarkTimer.png";
 
 export default function ClockSuiteAlarmsAndTimers() {
   return (
