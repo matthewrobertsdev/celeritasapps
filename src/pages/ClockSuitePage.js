@@ -12,6 +12,7 @@ import ClockSuiteDarkColors from "../components/ClockSuiteComponents/ClockSuiteD
 import ClockSuiteForegroundBackground from "../components/ClockSuiteComponents/ClockSuiteForegroundBackground";
 import ClockSuiteAlarmsAndTimers from "../components/ClockSuiteComponents/ClockSuiteAlarmsAndTimers";
 import ClockSuiteMiscellaneous from "../components/ClockSuiteComponents/ClockSuiteMiscellaneous";
+import ClockSuiteDockClock from "../components/ClockSuiteComponents/ClockSuiteDockClock";
 
 export default function ClockSuitePage() {
   useEffect(()=>{document.title = "Clock Suite"})
@@ -26,6 +27,7 @@ export default function ClockSuitePage() {
           <ClockSuiteDarkColors/>
           <ClockSuiteForegroundBackground/>
           <ClockSuiteAlarmsAndTimers/>
+          <ClockSuiteDockClock/>
           <ClockSuiteMiscellaneous/>
         </div>
       </div>
