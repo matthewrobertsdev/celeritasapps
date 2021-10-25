@@ -1,11 +1,16 @@
-//Copyright  © 2020  Matt Roberts
+//Copyright  © 2020-2021  Matt Roberts
+
+//import React
 import React, { useEffect, useState } from 'react';
+
+//import components
 import ContactCardsMobileView from '../components/ContactCardsMobileView'
 import ContactCardsTabletView from '../components/ContactCardsTabletView'
 import ContactCardsWatchView from '../components/ContactCardsWatchView'
 import ContactCardsDesktopView from '../components/ContactCardsDesktopView'
 
-const contactCardsInfo={
+//model info
+const contactCardsInfo = {
   title: 'Contact Cards',
   header: `Have multiple named and color-coded contact cards for yourself of your choosing
   so that you can share what you want with whom you want, whether or not they 
@@ -36,24 +41,24 @@ const contactCardsWatchInfo={
   detail: `See contact details directly from the watch so that you can confirm 
   that you are sharing what you want to share.`
 }
-const ContactCardsPage = () => {
+export default function ContactCardsPage() {
   useEffect(()=>{document.title = "Contact Cards"})
   const [currentTab, setCurrentTab]=useState('mobile')
   return (
-  <main>
-    <div className={'main-background main-blue'}>
-      <div className="main-margin">
-        <br></br>
-        <h1 className="text-align-center title">
-          Contact Cards
-        </h1>
-        <div className="text-align-center tab-container">
-        <div className="tab">
-          <span className={getTabClassName('mobile')} onClick={()=>setCurrentTab('mobile')}>Mobile</span>
-          <span className={getTabClassName('tablet')} onClick={()=>setCurrentTab('tablet')}>Tablet</span>
-          <span className={getTabClassName('watch')} onClick={()=>setCurrentTab('watch')}>Watch</span>
-          <span className={getTabClassName('desktop')} onClick={()=>setCurrentTab('desktop')}>Desktop</span>
-        </div>
+    <main>
+      <div className={'main-background main-blue'}>
+        <div className="main-margin">
+          <br/>
+          <h1 className="text-align-center title">
+            Contact Cards
+          </h1>
+          <div className="text-align-center tab-container">
+          <div className="tab">
+            <span className={getTabClassName('mobile')} onClick={()=>setCurrentTab('mobile')}>Mobile</span>
+            <span className={getTabClassName('tablet')} onClick={()=>setCurrentTab('tablet')}>Tablet</span>
+            <span className={getTabClassName('watch')} onClick={()=>setCurrentTab('watch')}>Watch</span>
+            <span className={getTabClassName('desktop')} onClick={()=>setCurrentTab('desktop')}>Desktop</span>
+          </div>
         </div>
         <br/>
         <hr/>
@@ -63,27 +68,25 @@ const ContactCardsPage = () => {
     </div>
   </main>
   )
-    function getTabClassName(device) {
-      if (currentTab===device) {
-        return 'selected-tab'
-      } else {
-        return 'tab'
-      }
+  function getTabClassName(device) {
+    if (currentTab===device) {
+      return 'selected-tab'
+    } else {
+      return 'tab'
     }
+  }
 
-    function getMain() {
-      if (currentTab==='mobile') {
-        return (<ContactCardsMobileView info={contactCardsInfo}/>);
-      } else if (currentTab==='tablet') {
-        return (<ContactCardsTabletView info={contactCardsInfo}/>);
-      } else if (currentTab==='watch') {
-        return (<ContactCardsWatchView info={contactCardsWatchInfo}/>);
-      } else if (currentTab==='desktop') {
-        return (<ContactCardsDesktopView info={contactCardsInfo}/>);
-      }else {
-        return (<div></div>);
-      }
+  function getMain() {
+    if (currentTab==='mobile') {
+      return (<ContactCardsMobileView info={contactCardsInfo}/>);
+    } else if (currentTab==='tablet') {
+      return (<ContactCardsTabletView info={contactCardsInfo}/>);
+    } else if (currentTab==='watch') {
+      return (<ContactCardsWatchView info={contactCardsWatchInfo}/>);
+    } else if (currentTab==='desktop') {
+      return (<ContactCardsDesktopView info={contactCardsInfo}/>);
+    } else {
+      return (<div/>);
     }
+  }
 }
-
-export default ContactCardsPage

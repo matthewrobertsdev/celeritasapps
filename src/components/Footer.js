@@ -1,12 +1,18 @@
-//Copyright  © 2020  Matt Roberts
+//Copyright  © 2020-2021  Matt Roberts
+
+//import React
 import React from 'react';
-const Footer = () => {
-    return (<div>
-    <br></br><br></br>
-    <div className="text-align-center copyright">
+
+export default function Footer() {
+  return (
+    <div>
+      <br/>
+      <br/>
+      <div className="text-align-center copyright">
         Copyright  © 2020-2021  Matt Roberts
+      </div>
+      <br/>
+      <br/>
     </div>
-    <br></br><br></br>
-    </div>);
+  );
 }
-export default Footer;

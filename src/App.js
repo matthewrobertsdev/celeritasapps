@@ -1,12 +1,11 @@
-//Copyright  © 2020  Matt Roberts
+//Copyright  © 2020-2021  Matt Roberts
+
+//import React
 import React from 'react';
-import {Provider} from 'react-redux';
-import createModelStore from './store/ModelStore';
+
+//import App Router
 import AppRouter from './AppRouter';
+
 export default function App(){
-  return (
-    <Provider store={createModelStore()}>
-        <AppRouter/>
-    </Provider>
-  );
+  return <AppRouter/>;
 }

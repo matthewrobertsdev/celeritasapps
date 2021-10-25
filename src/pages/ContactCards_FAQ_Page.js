@@ -1,16 +1,26 @@
+//Copyright  © 2020-2021  Matt Roberts
+
+//import React
 import React, { useEffect } from 'react';
+
+//import images
 import ContactCards256 from "../resources/ContactCards256.png";
+
+//import components
 import AppIconWithTitle from '../components/AppIconWithTitle'
-const FAQ_Page = () => {
+
+export default function ContactCards_FAQ_Page() {
   useEffect(() => { document.title = "Celeritas Apps | FAQ" })
   return (
     <main className={'main-background main-blue'}>
-      <br></br><br></br>
+      <br/>
+      <br/>
       <hr className='main-margin'/>
-      <br></br><br></br>
+      <br/>
+      <br/>
       <AppIconWithTitle image={ContactCards256} alt='Contact Cards App Icon' 
-      name='FAQ for Contact Cards' id='contactcardsfaq'/>
-      <br></br>
+        name='FAQ for Contact Cards' id='contactcardsfaq'/>
+      <br/>
       <h2 className="text-align-center">
         Question: How is a contact shared from Contact Cards?
       </h2>
@@ -68,11 +78,10 @@ const FAQ_Page = () => {
         connected to the internet), and will be erased from your other devices when they 
         sync.
       </h3>
-      <br></br>
+      <br/>
       <hr className='main-margin'/>
-      <br></br><br></br>
+      <br/>
+      <br/>
     </main>
   )
 }
-
-export default FAQ_Page

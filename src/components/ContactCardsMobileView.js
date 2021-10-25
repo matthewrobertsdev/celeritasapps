@@ -1,9 +1,12 @@
+//Copyright  © 2020-2021  Matt Roberts
+
+//import React
 import React from 'react'
+
+//import images
 import ContactCardsMain from "../resources/ContactCardsiPhone/ContactCardsMain.png";
 import ContactCardsQRCode from "../resources/ContactCardsiPhone/ContactCardsQRCode.png";
 import ContactCardsDetail from "../resources/ContactCardsiPhone/ContactCardsDetail.png";
-
-import { Carousel } from 'react-responsive-carousel';
 import ContactCardsFields1 from "../resources/ContactCardsiPhone/ContactCardsFields1.png";
 import ContactCardsFields2 from "../resources/ContactCardsiPhone/ContactCardsFields2.png";
 import ContactCardsFields3 from "../resources/ContactCardsiPhone/ContactCardsFields3.png";
@@ -12,9 +15,10 @@ import ContactCardsFields5 from "../resources/ContactCardsiPhone/ContactCardsFie
 import ContactCardsWidget from "../resources/ContactCardsiPhone/ContactCardsWidget.png";
 import ContactCardsSiri from "../resources/ContactCardsiPhone/ContactCardsSiri.png";
 
+//import images
+import { Carousel } from 'react-responsive-carousel';
 
-
-const ContactCardsMobileView=(props) => {
+export default function ContactCardsMobileView(props) {
   return (
     <div className='text-align-center'>
       <h2 className="text-align-center">
@@ -63,5 +67,3 @@ const ContactCardsMobileView=(props) => {
     </div>
   )
 }
-
-export default ContactCardsMobileView

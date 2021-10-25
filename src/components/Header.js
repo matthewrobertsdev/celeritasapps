@@ -11,10 +11,9 @@ import '../styles/App.css'
 import '../styles/NavigationStyle.css'
 import '../styles/Colors.css'
 const Header = () => {
-  const menuDisplayed=useSelector(state => state.misc.menuDisplayed)
   let location = useLocation();
   useEffect(()=> {
-  window.addEventListener('resize', () => closeMenuAsNeeded());
+  window.addEventListener('resize', () => {});
   document.body.classList="blue"})
 
   const windowWidth=useWindowDimensions().width;
@@ -58,11 +57,6 @@ const Header = () => {
         <Link className={getClassNameLeft("/faq")} key={4} to="/faq">FAQ</Link>
       </nav>)
   }
-    function closeMenuAsNeeded(){
-      if(menuDisplayed&&window.innerWidth>600){
-        displayMenu(false)
-      }
-    }
 
     //selected or unslected css style that floats left
 function getClassNameLeft(url) {

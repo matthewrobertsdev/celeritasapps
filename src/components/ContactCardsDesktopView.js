@@ -1,19 +1,24 @@
+//Copyright  © 2020-2021  Matt Roberts
+
+//import React
 import React from 'react'
+
+//import images
 import ContactCardsMain1 from "../resources/ContactCardsMac/ContactCardsMain1.png";
 import ContactCardsMain2 from "../resources/ContactCardsMac/ContactCardsMain2.png";
 import ContactCardsQRCode from "../resources/ContactCardsMac/ContactCardsQRCode.png";
-import { Carousel } from 'react-responsive-carousel';
 import ContactCardsFields1 from "../resources/ContactCardsMac/ContactCardsFields1.png";
 import ContactCardsFields2 from "../resources/ContactCardsMac/ContactCardsFields2.png";
 import ContactCardsFields3 from "../resources/ContactCardsMac/ContactCardsFields3.png";
 import ContactCardsFields4 from "../resources/ContactCardsMac/ContactCardsFields4.png";
 import ContactCardsFields5 from "../resources/ContactCardsMac/ContactCardsFields5.png";
 import ContactCardsFields6 from "../resources/ContactCardsMac/ContactCardsFields6.png";
-import ContactCardColors from "../resources/ContactCardsMac/ContactCardsColors.png";
 import ContactCardsWidget from "../resources/ContactCardsMac/ContactCardsWidget.png";
 
+//import Carousel
+import { Carousel } from 'react-responsive-carousel';
 
-const ContactCardsTabletView=(props) => {
+export default function ContactCardsTabletView(props) {
   return (
     <div className='text-align-center'>
       <h2 className="text-align-center">
@@ -58,9 +63,9 @@ const ContactCardsTabletView=(props) => {
         {props.info.widget}
       </h3>
       <img src={ContactCardsWidget} className="iPad-media" alt="Contact Cards widget"></img>
-      <br/><br/><br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
   )
 }
-
-export default ContactCardsTabletView

@@ -1,16 +1,26 @@
+//Copyright  © 2020-2021  Matt Roberts
+
+//import React
 import React, { useEffect } from 'react';
+
+//import images
 import ClockSuite256 from "../resources/ClockSuite256.png";
-import AppIconWithTitle from '../components/AppIconWithTitle'
-const FAQ_Page = () => {
+
+//import components
+import AppIconWithTitle from '../components/AppIconWithTitle';
+
+export default function ClockSuite_FAQ_Page() {
   useEffect(() => { document.title = "Celeritas Apps | FAQ" })
   return (
     <main className={'main-background main-blue'}>
-      <br></br><br></br>
+      <br/>
+      <br/>
       <hr className='main-margin'/>
-      <br></br><br></br>
+      <br/>
+      <br/>
       <AppIconWithTitle image={ClockSuite256} alt='Clock Suite App Icon' 
       name='FAQ for Clock Suite' id='clocksuitefaq'/>
-      <br></br>
+      <br/>
       <h2 className="text-align-center">
         Question: How do I enable translucency for the active Clock Suite window?
       </h2>
@@ -35,11 +45,10 @@ const FAQ_Page = () => {
         Answer: You must open Clock Suite Preferences under the Clock Suite menu 
         and select or deselect the "Use 24 Hour Clock" checkbox.
       </h3>
-      <br></br>
+      <br/>
       <hr className='main-margin'/>
-      <br></br><br></br>
+      <br/>
+      <br/>
     </main>
   )
 }
-
-export default FAQ_Page

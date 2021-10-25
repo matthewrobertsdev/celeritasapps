@@ -1,18 +1,21 @@
+//Copyright  © 2020-2021  Matt Roberts
+
+//import React
 import React from 'react'
+
+//import images
 import ContactCardsWatchTable1 from '../resources/ContactCardsWatch/ContactCardsWatchTable1.png'
 import ContactCardsWatchTable2 from '../resources/ContactCardsWatch/ContactCardsWatchTable2.png'
-import ContactCardsWatchQRPurple from '../resources/ContactCardsWatch/ContactCardsWatchQRPurple.png'
-import ContactCardsWatchQROrange from '../resources/ContactCardsWatch/ContactCardsWatchQROrange.png'
 import ContactCardsWatchQRBlue from '../resources/ContactCardsWatch/ContactCardsWatchQRBlue.png'
 import ContactCardsWatchQRGreen from '../resources/ContactCardsWatch/ContactCardsWatchQRGreen.png'
 import ContactCardsWatchQRYellow from '../resources/ContactCardsWatch/ContactCardsWatchQRYellow.png'
 import ContactCardsWatchDetails from '../resources/ContactCardsWatch/ContactCardsWatchDetails.png'
 
-const ContactCardsWatchView=(props) => {
+export default function ContactCardsWatchView(props) {
   return (
     <div className='text-align-center'>
       <h2 className="text-align-center">
-          {props.info.header}
+        {props.info.header}
       </h2>
       <img src={ContactCardsWatchTable1} className="watch-media" alt="Main table view for contact cards 1"></img>
       <img src={ContactCardsWatchTable2} className="watch-media" alt="Main table view for contact cards 2"></img>
@@ -23,9 +26,10 @@ const ContactCardsWatchView=(props) => {
         {props.info.detail}
       </h3>
       <img src={ContactCardsWatchDetails} className="watch-media" alt="Contact card details"></img>
-      <br/><br/><br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
   )
 }
 
-export default ContactCardsWatchView;
