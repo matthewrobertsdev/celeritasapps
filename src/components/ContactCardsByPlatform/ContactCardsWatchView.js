@@ -4,12 +4,12 @@
 import React from 'react'
 
 //import images
-import ContactCardsWatchTable1 from '../resources/ContactCardsWatch/ContactCardsWatchTable1.png'
-import ContactCardsWatchTable2 from '../resources/ContactCardsWatch/ContactCardsWatchTable2.png'
-import ContactCardsWatchQRBlue from '../resources/ContactCardsWatch/ContactCardsWatchQRBlue.png'
-import ContactCardsWatchQRGreen from '../resources/ContactCardsWatch/ContactCardsWatchQRGreen.png'
-import ContactCardsWatchQRYellow from '../resources/ContactCardsWatch/ContactCardsWatchQRYellow.png'
-import ContactCardsWatchDetails from '../resources/ContactCardsWatch/ContactCardsWatchDetails.png'
+import ContactCardsWatchTable1 from '../../resources/ContactCardsWatch/ContactCardsWatchTable1.png'
+import ContactCardsWatchTable2 from '../../resources/ContactCardsWatch/ContactCardsWatchTable2.png'
+import ContactCardsWatchQRBlue from '../../resources/ContactCardsWatch/ContactCardsWatchQRBlue.png'
+import ContactCardsWatchQRGreen from '../../resources/ContactCardsWatch/ContactCardsWatchQRGreen.png'
+import ContactCardsWatchQRYellow from '../../resources/ContactCardsWatch/ContactCardsWatchQRYellow.png'
+import ContactCardsWatchDetails from '../../resources/ContactCardsWatch/ContactCardsWatchDetails.png'
 
 export default function ContactCardsWatchView(props) {
   return (

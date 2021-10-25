@@ -4,10 +4,10 @@
 import React, { useEffect, useState } from 'react';
 
 //import components
-import ContactCardsMobileView from '../components/ContactCardsMobileView'
-import ContactCardsTabletView from '../components/ContactCardsTabletView'
-import ContactCardsWatchView from '../components/ContactCardsWatchView'
-import ContactCardsDesktopView from '../components/ContactCardsDesktopView'
+import ContactCardsMobileView from '../components/ContactCardsByPlatform/ContactCardsMobileView'
+import ContactCardsTabletView from '../components/ContactCardsByPlatform/ContactCardsTabletView'
+import ContactCardsWatchView from '../components/ContactCardsByPlatform/ContactCardsWatchView'
+import ContactCardsDesktopView from '../components/ContactCardsByPlatform/ContactCardsDesktopView'
 
 //model info
 const contactCardsInfo = {
