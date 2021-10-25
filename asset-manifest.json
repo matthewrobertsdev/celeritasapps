@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/celeritasapps/static/css/main.30d6e0b3.chunk.css",
-    "main.js": "/celeritasapps/static/js/main.cfd068ee.chunk.js",
-    "main.js.map": "/celeritasapps/static/js/main.cfd068ee.chunk.js.map",
+    "main.js": "/celeritasapps/static/js/main.e3fd08b2.chunk.js",
+    "main.js.map": "/celeritasapps/static/js/main.e3fd08b2.chunk.js.map",
     "runtime-main.js": "/celeritasapps/static/js/runtime-main.ed4334ef.js",
     "runtime-main.js.map": "/celeritasapps/static/js/runtime-main.ed4334ef.js.map",
     "static/css/2.ed1298f3.chunk.css": "/celeritasapps/static/css/2.ed1298f3.chunk.css",
@@ -64,6 +64,8 @@
     "static/media/CustomColorClockDark.7791d0c8.png": "/celeritasapps/static/media/CustomColorClockDark.7791d0c8.png",
     "static/media/CustomColorClockLight.ce195394.png": "/celeritasapps/static/media/CustomColorClockLight.ce195394.png",
     "static/media/DarkTimer.4af5553b.png": "/celeritasapps/static/media/DarkTimer.4af5553b.png",
+    "static/media/DockClock.31e9c73a.mp4": "/celeritasapps/static/media/DockClock.31e9c73a.mp4",
+    "static/media/DockClock.bca8fd0e.png": "/celeritasapps/static/media/DockClock.bca8fd0e.png",
     "static/media/GrayClockDark.8ba88a6c.png": "/celeritasapps/static/media/GrayClockDark.8ba88a6c.png",
     "static/media/GrayClockLight.d71f9f24.png": "/celeritasapps/static/media/GrayClockLight.d71f9f24.png",
     "static/media/GreenClockDark.0af5f28a.png": "/celeritasapps/static/media/GreenClockDark.0af5f28a.png",
@@ -90,6 +92,6 @@
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.96b7df66.chunk.js",
     "static/css/main.30d6e0b3.chunk.css",
-    "static/js/main.cfd068ee.chunk.js"
+    "static/js/main.e3fd08b2.chunk.js"
   ]
 }
