@@ -8,21 +8,23 @@ import {Route, Switch, HashRouter } from 'react-router-dom';
 
 //import header and footer
 import Header from './components/Header';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
 
 //import scroll-to-top
-import ScrollToTop from './components/ScrollToTop'
+import ScrollToTop from './components/ScrollToTop';
 
 //import pages
-import HomePage from './pages/HomePage'
-import AppsPage from './pages/AppsPage'
-import ClockSuitePage from './pages/ClockSuitePage'
-import ContactCardsPage from './pages/ContactCardsPage'
-import ContactPage from './pages/ContactPage'
-import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
-import FAQ_Page from './pages/FAQ_Page'
-import ClockSuite_FAQ_Page from './pages/ClockSuite_FAQ_Page'
-import ContactCards_FAQ_Page from './pages/ContactCards_FAQ_Page'
+import HomePage from './pages/HomePage';
+import AppsPage from './pages/AppsPage';
+import ClockSuitePage from './pages/ClockSuitePage';
+import ContactCardsPage from './pages/ContactCardsPage';
+import ContactPage from './pages/ContactPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import ClockSuitePrivacyPolicy from './pages/ClockSuitePrivacyPolicy';
+import FAQ_Page from './pages/FAQ_Page';
+import ClockSuite_FAQ_Page from './pages/ClockSuite_FAQ_Page';
+import ContactCards_FAQ_Page from './pages/ContactCards_FAQ_Page';
+import ContactCardsPrivacyPolicy from './pages/ContactCardsPrivacyPolicy';
 
 export default function AppRouter() {
   return (
@@ -35,7 +37,9 @@ export default function AppRouter() {
         <Route path="/clocksuite" exact component={ClockSuitePage} />
         <Route path="/contactcards" exact component={ContactCardsPage} />
         <Route path="/contact" exact component={ContactPage} />
-        <Route path="/privacy" exact component={PrivacyPolicyPage} />          
+        <Route path="/privacy" exact component={PrivacyPolicyPage} />
+        <Route path="/privacy/clocksuite" exact component={ClockSuitePrivacyPolicy} />
+        <Route path="/privacy/contactcards" exact component={ContactCardsPrivacyPolicy} />                                     
         <Route path="/faq" exact component={FAQ_Page} />
         <Route path="/faq/clocksuite" exact component={ClockSuite_FAQ_Page} />
         <Route path="/faq/contactcards" exact component={ContactCards_FAQ_Page} />
