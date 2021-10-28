@@ -3,62 +3,109 @@ Copyright  © 2020  Matt Roberts
 */
 .navigation-bar {
   overflow: hidden;
-  }
-  .top-navigation-item {
+}
+.top-navigation-item {
   float: left;
   display: block;
   font-weight: 600;
   text-align: center;
   padding: 14px 16px 14px 16px;
   text-decoration: none;
-  }
+}
 
+.selected-navigation-item{
+  border-bottom: 3.5px solid black;
+  padding: 14px 16px 10.5px 16px;
+}
+
+@media screen and (max-width: 500px) {
+  .top-navigation-item {
+    float: left;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    padding: 14px 8px 14px 8px;
+    text-decoration: none;
+  }
   .selected-navigation-item{
     border-bottom: 3.5px solid black;
-    padding: 14px 16px 10.5px 16px;
+    padding: 14px 8px 10.5px 8px;
+  }
+}
+.navigation-menu {
+  overflow: hidden;
+  display: flex;
+}
+
+@media screen and (max-width: 440px) {
+  .top-navigation-item {
+    font-weight: 600;
+    text-align: center;
+    padding: 14px 8px 14px 8px;
+    text-decoration: none;
+  }
+  .selected-navigation-item{
+    border-bottom: 3.5px solid black;
+    padding: 14px 8px 10.5px 8px;
   }
 
-  @media screen and (max-width: 500px) {
-    .top-navigation-item {
-      float: left;
-      display: block;
-      font-weight: 600;
-      text-align: center;
-      padding: 14px 8px 14px 8px;
-      text-decoration: none;
-      }
-      .selected-navigation-item{
-        border-bottom: 3.5px solid black;
-        padding: 14px 8px 10.5px 8px;
-      }
-  }
-  .navigation-menu {
-    overflow: hidden;
-    display: flex;
-  }
-  
-  .top-navigation-link {
-    position: relative;
-    z-index: 2;
-    margin: auto;
+  .menu-item {
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    padding: 14px 8px 14px 8px;
     text-decoration: none;
-    color: black;
   }
-  .float-right {
-    float: right;
+  .selected-menu-item{
+    border-bottom: 3.5px solid black;
+    padding: 14px 8px 10.5px 8px;
   }
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.spacer {
+  height: 40px;
+}
+
+.centered {
+  text-align: center;
+  margin: auto;
+}
+  
+.top-navigation-link {
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  text-decoration: none;
+  color: black;
+}
+.show-or-hide-menu {
+  width: 25px;
+  height: 25px;
+  padding: 10px 16px 8px 16px;
+}
+.float-right {
+  float: right;
+}
+
+@media (prefers-color-scheme: dark){
+  .selected-navigation-item{
+    border-bottom: 3.5px solid white;
+  }
+  .selected-menu-item{
+    border-bottom: 3.5px solid white;
+  }
+}
+/*
   .show-or-hide-menu {
     width: 25px;
     height: 25px;
     padding: 10px 16px 8px 16px;
-  }
-  .menu-bar-container {
-    position: relative;
-    z-index: 2;
-    display: none;
-    float: right;
-    cursor: pointer;
-    margin: 8.5px 10px;
   }
   .bar-1, .bar-2 {
     position: relative;
@@ -91,9 +138,4 @@ Copyright  © 2020  Matt Roberts
     -webkit-transform: rotate(45deg) translate(0px, -8px);
     transform: rotate(45deg) translate(0px, -8px);
   }
-
-  @media (prefers-color-scheme: dark){
-    .selected-navigation-item{
-      border-bottom: 3.5px solid white;
-    }
-  }
+  */
