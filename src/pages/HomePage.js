@@ -17,9 +17,9 @@ import PurpleClockImage from "../resources/DarkModeClockMedium/PurpleClockDark.p
 import ContactCardsMain from "../resources/ContactCardsiPhone/ContactCardsMain.png";
 import ContactCardsDetail from "../resources/ContactCardsiPhone/ContactCardsDetail.png";
 import ContactCardsQRCode from "../resources/ContactCardsiPhone/ContactCardsQRCode.png";
-import DarkRed from "../resources/SpiffyClock/DarkRed.png";
-import Yellow from "../resources/SpiffyClock/Yellow.png";
-import GreenForeground from "../resources/SpiffyClock/GreenForeground.png";
+import SpiffyClockDarkRed from "../resources/SpiffyClock/DarkRed.png";
+import SpiffyClockYellow from "../resources/SpiffyClock/Yellow.png";
+import SpiffyClockGreenForeground from "../resources/SpiffyClock/GreenForeground.png";
 
 export default function HomePage() {
   useEffect(() => { document.title = "Celeritas Apps" })
@@ -70,9 +70,9 @@ export default function HomePage() {
         <br/>
         <br/>
         <br/>
-        <img src={DarkRed} className="iPhone-media" alt="Spiffy Clock Dark Red"></img>
-        <img src={Yellow} className="iPhone-media" alt="Spiffy Clock Yellow"></img>
-        <img src={GreenForeground} className="iPhone-media" alt="Spiffy Clock Green Foreground"></img>
+        <img src={SpiffyClockDarkRed} className="iPhone-media" alt="Spiffy Clock Dark Red"></img>
+        <img src={SpiffyClockYellow} className="iPhone-media" alt="Spiffy Clock Yellow"></img>
+        <img src={SpiffyClockGreenForeground} className="iPhone-media" alt="Spiffy Clock Green Foreground"></img>
         <h2 className="text-align-center">
         A nice and relaxing clock for your iPhone or iPad, with colors that 
         change with dark mode and light mode, and many choices for display of the time

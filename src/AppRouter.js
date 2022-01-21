@@ -18,14 +18,16 @@ import HomePage from './pages/HomePage';
 import AppsPage from './pages/AppsPage';
 import ClockSuitePage from './pages/ClockSuitePage';
 import ContactCardsPage from './pages/ContactCardsPage';
+import SpiffyClockPage from './pages/SpiffyClockPage';
 import ContactPage from './pages/ContactPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import ClockSuitePrivacyPolicy from './pages/ClockSuitePrivacyPolicy';
 import FAQ_Page from './pages/FAQ_Page';
 import ClockSuite_FAQ_Page from './pages/ClockSuite_FAQ_Page';
 import ContactCards_FAQ_Page from './pages/ContactCards_FAQ_Page';
+import SpiffyClock_FAQ_Page from './pages/SpiffyClock_FAQ_Page';
 import ContactCardsPrivacyPolicy from './pages/ContactCardsPrivacyPolicy';
-import SpiffyClockPrivacyPolicy from './pages/SpiffyClockPrivacyPolicy'
+import SpiffyClockPrivacyPolicy from './pages/SpiffyClockPrivacyPolicy';
 
 export default function AppRouter() {
   return (
@@ -37,6 +39,7 @@ export default function AppRouter() {
         <Route path="/apps" exact component={AppsPage}/>
         <Route path="/clocksuite" exact component={ClockSuitePage} />
         <Route path="/contactcards" exact component={ContactCardsPage} />
+        <Route path="/spiffyclock" exact component={SpiffyClockPage} />
         <Route path="/contact" exact component={ContactPage} />
         <Route path="/privacy" exact component={PrivacyPolicyPage} />
         <Route path="/privacy/clocksuite" exact component={ClockSuitePrivacyPolicy} />
@@ -45,6 +48,7 @@ export default function AppRouter() {
         <Route path="/faq" exact component={FAQ_Page} />
         <Route path="/faq/clocksuite" exact component={ClockSuite_FAQ_Page} />
         <Route path="/faq/contactcards" exact component={ContactCards_FAQ_Page} />
+        <Route path="/faq/spiffyclock" exact component={SpiffyClock_FAQ_Page} />
         <Route component={HomePage} />
       </Switch>
       <Footer/>
