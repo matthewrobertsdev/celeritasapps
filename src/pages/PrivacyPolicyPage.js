@@ -6,6 +6,8 @@ import React, { useEffect } from 'react';
 //import images
 import ClockSuite256 from "../resources/ClockSuite256.png";
 import ContactCards256 from "../resources/ContactCards256.png";
+import SpiffyClock256 from "../resources/SpiffyClock256.png";
+
 
 //import components
 import SmallAppIconLink from '../components/SmallAppIconLink'
@@ -22,6 +24,8 @@ export default function PrivacyPolicyPage() {
         name='Clock Suite Privacy Policy' id='clocksuiteprivacypolicy'/> 
       <SmallAppIconLink image={ContactCards256} relativeLink='/privacy/contactcards' alt='Contact Cards App Icon' 
         name='Contact Cards Privacy Policy' id='contactcardsprivacypolicy'/>
+      <SmallAppIconLink image={SpiffyClock256} relativeLink='/privacy/spiffyclock' alt='Spiffy Clock App Icon' 
+        name='Spiffy Clock Privacy Policy' id='spiffyclockprivacypolicy'/>
       <br/>
       <br/>
       <br/>

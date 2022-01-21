@@ -25,6 +25,7 @@ import FAQ_Page from './pages/FAQ_Page';
 import ClockSuite_FAQ_Page from './pages/ClockSuite_FAQ_Page';
 import ContactCards_FAQ_Page from './pages/ContactCards_FAQ_Page';
 import ContactCardsPrivacyPolicy from './pages/ContactCardsPrivacyPolicy';
+import SpiffyClockPrivacyPolicy from './pages/SpiffyClockPrivacyPolicy'
 
 export default function AppRouter() {
   return (
@@ -39,7 +40,8 @@ export default function AppRouter() {
         <Route path="/contact" exact component={ContactPage} />
         <Route path="/privacy" exact component={PrivacyPolicyPage} />
         <Route path="/privacy/clocksuite" exact component={ClockSuitePrivacyPolicy} />
-        <Route path="/privacy/contactcards" exact component={ContactCardsPrivacyPolicy} />                                     
+        <Route path="/privacy/contactcards" exact component={ContactCardsPrivacyPolicy} />
+        <Route path="/privacy/spiffyclock" exact component={SpiffyClockPrivacyPolicy} />                                     
         <Route path="/faq" exact component={FAQ_Page} />
         <Route path="/faq/clocksuite" exact component={ClockSuite_FAQ_Page} />
         <Route path="/faq/contactcards" exact component={ContactCards_FAQ_Page} />

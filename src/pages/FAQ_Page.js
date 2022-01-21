@@ -6,6 +6,8 @@ import React, { useEffect } from 'react';
 //import images
 import ClockSuite256 from "../resources/ClockSuite256.png";
 import ContactCards256 from "../resources/ContactCards256.png";
+import SpiffyClock256 from "../resources/SpiffyClock256.png";
+
 
 //import components
 import SmallAppIconLink from '../components/SmallAppIconLink'
@@ -25,6 +27,10 @@ export default function FAQ_Page() {
       <br/>
       <SmallAppIconLink image={ContactCards256} relativeLink='/faq/contactcards'
                 alt='Contact Cards App Icon' name='FAQ for Contact Cards' />
+      <br/>
+      <br/>
+      <SmallAppIconLink image={SpiffyClock256} relativeLink='/faq/spiffyclock'
+                alt='Spiffy Clock App Icon' name='FAQ for Spiffy Clock' />
       <br/>
       <br/>
       <hr className='main-margin'/>

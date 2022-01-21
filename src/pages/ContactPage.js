@@ -8,8 +8,8 @@ const ContactPage = () => {
             <br></br>
             <h1 className='main-h-1'>Reach out!</h1>
             <h2 className='main-text'>
-                Do you have a question or feedback about Clock Suite or Contact Cards?  
-                Please do not hesitate.  Send the developer an email 
+                Do you have a question or feedback about Clock Suite, Contact Cards, 
+                or Spiffy Clock?  Please do not hesitate.  Send the developer an email 
                 at:
             <br></br><br></br>
             <a className='main-text ten-percent-margin' 

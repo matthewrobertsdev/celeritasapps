@@ -6,6 +6,8 @@ import React, { useEffect } from 'react';
 //import images
 import ClockSuite256 from "../resources/ClockSuite256.png";
 import ContactCards256 from "../resources/ContactCards256.png";
+import SpiffyClock256 from "../resources/SpiffyClock256.png";
+
 
 //import components
 import SmallAppIconLink from '../components/SmallAppIconLink'
@@ -32,6 +34,13 @@ export default function AppsPage() {
         Have multiple contact cards for yourself so you can share what you 
         want with whom you want, whether or not they have the app.  Share 
         virtually or by QR code.
+      </h2>
+      <SmallAppIconLink image={SpiffyClock256} relativeLink='/spiffyclock'
+        alt='Spiffy Clock App Icon' name='Spiffy Clock' />
+      <h2 className="ten-percent-margin">
+        A nice and relaxing clock for your iPhone or iPad, with colors that 
+        change with dark mode and light mode, and many choices for display of the time
+        and the date and the day of the week.
       </h2>
       <br/>
       <br/>

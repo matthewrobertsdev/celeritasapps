@@ -12,6 +12,7 @@ import LargeAppIconLink from "../components/LargeAppIconLink"
 //import images
 import ClockSuite256 from "../resources/ClockSuite256.png";
 import ContactCards256 from "../resources/ContactCards256.png";
+import SpiffyClock256 from "../resources/SpiffyClock256.png";
 import PurpleClockImage from "../resources/DarkModeClockMedium/PurpleClockDark.png";
 import ContactCardsMain from "../resources/ContactCardsiPhone/ContactCardsMain.png";
 import ContactCardsDetail from "../resources/ContactCardsiPhone/ContactCardsDetail.png";
@@ -27,6 +28,8 @@ export default function HomePage() {
           alt='Clock Suite App Icon' name='Clock Suite' />
         <LargeAppIconLink image={ContactCards256} relativeLink='/contactcards'
           alt='Contact Cards App Icon' name='Contact Cards' />
+          <LargeAppIconLink image={SpiffyClock256} relativeLink='/spiffyclock'
+          alt='Spiffy Clock App Icon' name='Spiffy Clock' />
       </div>
       <br/>
       <br/>
