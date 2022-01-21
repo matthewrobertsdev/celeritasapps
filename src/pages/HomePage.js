@@ -17,6 +17,9 @@ import PurpleClockImage from "../resources/DarkModeClockMedium/PurpleClockDark.p
 import ContactCardsMain from "../resources/ContactCardsiPhone/ContactCardsMain.png";
 import ContactCardsDetail from "../resources/ContactCardsiPhone/ContactCardsDetail.png";
 import ContactCardsQRCode from "../resources/ContactCardsiPhone/ContactCardsQRCode.png";
+import DarkRed from "../resources/SpiffyClock/DarkRed.png";
+import Yellow from "../resources/SpiffyClock/Yellow.png";
+import GreenForeground from "../resources/SpiffyClock/GreenForeground.png";
 
 export default function HomePage() {
   useEffect(() => { document.title = "Celeritas Apps" })
@@ -59,6 +62,21 @@ export default function HomePage() {
         <h2 className="text-align-center">
         Have multiple contact cards for yourself so you can share what you want with whom 
         you want, whether or not they have the app.  Share virtually or by QR code.
+        </h2>
+        <br/>
+        <hr/>
+        <br/>
+        <Link to='/spiffyclock' className='title text'>Spiffy Clock</Link>
+        <br/>
+        <br/>
+        <br/>
+        <img src={DarkRed} className="iPhone-media" alt="Spiffy Clock Dark Red"></img>
+        <img src={Yellow} className="iPhone-media" alt="Spiffy Clock Yellow"></img>
+        <img src={GreenForeground} className="iPhone-media" alt="Spiffy Clock Green Foreground"></img>
+        <h2 className="text-align-center">
+        A nice and relaxing clock for your iPhone or iPad, with colors that 
+        change with dark mode and light mode, and many choices for display of the time
+        and the date and the day of the week.
         </h2>
       </div>
       <br/>
