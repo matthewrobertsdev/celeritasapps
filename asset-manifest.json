@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/celeritasapps/static/css/main.30d6e0b3.chunk.css",
-    "main.js": "/celeritasapps/static/js/main.e3fd08b2.chunk.js",
-    "main.js.map": "/celeritasapps/static/js/main.e3fd08b2.chunk.js.map",
+    "main.js": "/celeritasapps/static/js/main.4342fbb8.chunk.js",
+    "main.js.map": "/celeritasapps/static/js/main.4342fbb8.chunk.js.map",
     "runtime-main.js": "/celeritasapps/static/js/runtime-main.ed4334ef.js",
     "runtime-main.js.map": "/celeritasapps/static/js/runtime-main.ed4334ef.js.map",
     "static/css/2.ed1298f3.chunk.css": "/celeritasapps/static/css/2.ed1298f3.chunk.css",
@@ -63,6 +63,9 @@
     "static/media/ContactCardsWidget.ed00d1c4.png": "/celeritasapps/static/media/ContactCardsWidget.ed00d1c4.png",
     "static/media/CustomColorClockDark.7791d0c8.png": "/celeritasapps/static/media/CustomColorClockDark.7791d0c8.png",
     "static/media/CustomColorClockLight.ce195394.png": "/celeritasapps/static/media/CustomColorClockLight.ce195394.png",
+    "static/media/DarkColors.e4cffa01.png": "/celeritasapps/static/media/DarkColors.e4cffa01.png",
+    "static/media/DarkIndigo.ab4e478b.png": "/celeritasapps/static/media/DarkIndigo.ab4e478b.png",
+    "static/media/DarkRed.31d118f4.png": "/celeritasapps/static/media/DarkRed.31d118f4.png",
     "static/media/DarkTimer.4af5553b.png": "/celeritasapps/static/media/DarkTimer.4af5553b.png",
     "static/media/DockClock.31e9c73a.mp4": "/celeritasapps/static/media/DockClock.31e9c73a.mp4",
     "static/media/DockClock.bca8fd0e.png": "/celeritasapps/static/media/DockClock.bca8fd0e.png",
@@ -70,6 +73,8 @@
     "static/media/GrayClockLight.d71f9f24.png": "/celeritasapps/static/media/GrayClockLight.d71f9f24.png",
     "static/media/GreenClockDark.0af5f28a.png": "/celeritasapps/static/media/GreenClockDark.0af5f28a.png",
     "static/media/GreenClockLight.2c79fcdd.png": "/celeritasapps/static/media/GreenClockLight.2c79fcdd.png",
+    "static/media/GreenForeground.07018bb8.png": "/celeritasapps/static/media/GreenForeground.07018bb8.png",
+    "static/media/LightColors.cbba614e.png": "/celeritasapps/static/media/LightColors.cbba614e.png",
     "static/media/OrangeClockDark.5706f9fa.png": "/celeritasapps/static/media/OrangeClockDark.5706f9fa.png",
     "static/media/OrangeClockLight.d0b2af0b.png": "/celeritasapps/static/media/OrangeClockLight.d0b2af0b.png",
     "static/media/PinkClockDark.79247123.png": "/celeritasapps/static/media/PinkClockDark.79247123.png",
@@ -78,12 +83,15 @@
     "static/media/PurpleClockLight.a8c60b89.png": "/celeritasapps/static/media/PurpleClockLight.a8c60b89.png",
     "static/media/RedClockDark.a64e3621.png": "/celeritasapps/static/media/RedClockDark.a64e3621.png",
     "static/media/RedClockLight.ae776172.png": "/celeritasapps/static/media/RedClockLight.ae776172.png",
+    "static/media/Settings.e20264ba.png": "/celeritasapps/static/media/Settings.e20264ba.png",
+    "static/media/SpiffyClock256.d41a7d62.png": "/celeritasapps/static/media/SpiffyClock256.d41a7d62.png",
     "static/media/SystemDarkClockDark.aedb8adf.png": "/celeritasapps/static/media/SystemDarkClockDark.aedb8adf.png",
     "static/media/TimerSetUp.efabadb8.png": "/celeritasapps/static/media/TimerSetUp.efabadb8.png",
     "static/media/UseTimer.2f16ce4a.mp4": "/celeritasapps/static/media/UseTimer.2f16ce4a.mp4",
     "static/media/UseTimer.72c9ccf8.png": "/celeritasapps/static/media/UseTimer.72c9ccf8.png",
     "static/media/WhiteClockDark.71cab8d0.png": "/celeritasapps/static/media/WhiteClockDark.71cab8d0.png",
     "static/media/WhiteClockLight.354d5743.png": "/celeritasapps/static/media/WhiteClockLight.354d5743.png",
+    "static/media/Yellow.89a8d34d.png": "/celeritasapps/static/media/Yellow.89a8d34d.png",
     "static/media/YellowClockDark.8889f905.png": "/celeritasapps/static/media/YellowClockDark.8889f905.png",
     "static/media/YellowClockLight.88c383bf.png": "/celeritasapps/static/media/YellowClockLight.88c383bf.png"
   },
@@ -92,6 +100,6 @@
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.96b7df66.chunk.js",
     "static/css/main.30d6e0b3.chunk.css",
-    "static/js/main.e3fd08b2.chunk.js"
+    "static/js/main.4342fbb8.chunk.js"
   ]
 }
