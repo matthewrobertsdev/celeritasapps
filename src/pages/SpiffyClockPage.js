@@ -2,6 +2,7 @@
 
 //import React
 import React, { useEffect } from 'react';
+import DownloadOnTheAppStore from '../resources/DownloadOnTheAppStore.png';
 import SpiffyClockDarkRed from "../resources/SpiffyClock/DarkRed.png";
 import SpiffyClockYellow from "../resources/SpiffyClock/Yellow.png";
 import SpiffyClockGreenForeground from "../resources/SpiffyClock/GreenForeground.png";
@@ -18,11 +19,18 @@ export default function SpiffyClockPage() {
     <main>
       <div className={'main-background main-blue'}>
       <div className='text-align-center main-margin'>
-        <div className="main-margin">
+        <div>
           <br/>
           <h1 className="text-align-center title">
             Spiffy Clock
           </h1>
+          <hr/>
+          <br/>
+          <a href='https://apps.apple.com/us/app/spiffy-clock/id1602707841'>
+        <img src={DownloadOnTheAppStore} alt={'Download on the App Store'} 
+          className='app-store-badge centered-image'/>
+      </a>
+      <br/>
         <h2 className="text-align-center">
         Spiffy Clock puts the time and date front and center!  It allows display 
         with 9 built-in colors that can be displayed as the background or as the 

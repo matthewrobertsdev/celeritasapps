@@ -23,7 +23,7 @@ export default function AppsPage() {
       <SmallAppIconLink image={ClockSuite256} relativeLink='/clocksuite'
         alt='Clock Suite App Icon' name='Clock Suite' />
       <h2 className="ten-percent-margin">
-        A 4 in 1 Clock Suite for your Mac.  A clock (digital or analog), 
+        A 5-in-1 Clock Suite for your Mac.  A clock (digital or analog), 
         timers, alarms and a dock clock, with many color choices and a 
         custom color of your choosing, and with dark mode and light mode 
         and built-in sounds or songs you own for alerts.

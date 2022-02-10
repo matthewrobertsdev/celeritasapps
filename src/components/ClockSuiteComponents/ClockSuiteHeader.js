@@ -15,12 +15,14 @@ export default function ClockSuiteHeader() {
       <h1 className="text-align-center title">
         Clock Suite
       </h1>
-      <img src={GreenClockImage} className="centered-image" alt="Green Clock Suite"></img>
+      <hr/>
       <br/>
       <a href='https://apps.apple.com/app/apple-store/id1531519063?pt=122105291&ct=clocksuite&mt=8'>
         <img src={DownloadOnMacAppStore} alt={'Download on Mac App Store'} 
-          className='app-store-badge centered-image'/>
+          className='mac-app-store-badge centered-image'/>
       </a>
+      <br/>
+      <img src={GreenClockImage} className="centered-image" alt="Green Clock Suite"></img>
       <h2 className="text-align-center">
         A great Clock Suite for your computer--Alarms, Timers, a Resizable
         Clock, and a Dock Clock for your computer's dock.  All in

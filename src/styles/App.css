@@ -164,8 +164,13 @@ video {
   border-bottom: 3.5px solid black;
 }
 
-.app-store-badge {
+.mac-app-store-badge {
   height: 60px;
+  width: 236px;
+}
+
+.app-store-badge {
+  height: 80px;
   width: 236px;
 }
 
