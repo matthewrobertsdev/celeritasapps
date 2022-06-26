@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/celeritasapps/static/css/main.757a1ac3.chunk.css",
-    "main.js": "/celeritasapps/static/js/main.cf06d84e.chunk.js",
-    "main.js.map": "/celeritasapps/static/js/main.cf06d84e.chunk.js.map",
+    "main.js": "/celeritasapps/static/js/main.033e3cc9.chunk.js",
+    "main.js.map": "/celeritasapps/static/js/main.033e3cc9.chunk.js.map",
     "runtime-main.js": "/celeritasapps/static/js/runtime-main.ed4334ef.js",
     "runtime-main.js.map": "/celeritasapps/static/js/runtime-main.ed4334ef.js.map",
     "static/css/2.ed1298f3.chunk.css": "/celeritasapps/static/css/2.ed1298f3.chunk.css",
@@ -15,6 +15,7 @@
     "static/media/AlarmSetUp.c149c63f.png": "/celeritasapps/static/media/AlarmSetUp.c149c63f.png",
     "static/media/AnalogClock.388ebe70.png": "/celeritasapps/static/media/AnalogClock.388ebe70.png",
     "static/media/BlackClockDark.c9ce3a71.png": "/celeritasapps/static/media/BlackClockDark.c9ce3a71.png",
+    "static/media/BlackClockLight.fa0fc4d8.png": "/celeritasapps/static/media/BlackClockLight.fa0fc4d8.png",
     "static/media/BlueClockDark.37fe1fb6.png": "/celeritasapps/static/media/BlueClockDark.37fe1fb6.png",
     "static/media/BlueClockLight.70c9b79a.png": "/celeritasapps/static/media/BlueClockLight.70c9b79a.png",
     "static/media/BrownClockDark.2f69be77.png": "/celeritasapps/static/media/BrownClockDark.2f69be77.png",
@@ -82,11 +83,12 @@
     "static/media/Settings.34ca7e6f.png": "/celeritasapps/static/media/Settings.34ca7e6f.png",
     "static/media/SpiffyClock256.d41a7d62.png": "/celeritasapps/static/media/SpiffyClock256.d41a7d62.png",
     "static/media/SystemDarkClockDark.aedb8adf.png": "/celeritasapps/static/media/SystemDarkClockDark.aedb8adf.png",
+    "static/media/SystemLightClockLight.02443e54.png": "/celeritasapps/static/media/SystemLightClockLight.02443e54.png",
     "static/media/TimerSetUp.efabadb8.png": "/celeritasapps/static/media/TimerSetUp.efabadb8.png",
     "static/media/UseTimer.2f16ce4a.mp4": "/celeritasapps/static/media/UseTimer.2f16ce4a.mp4",
     "static/media/UseTimer.72c9ccf8.png": "/celeritasapps/static/media/UseTimer.72c9ccf8.png",
-    "static/media/WhiteClockDark.71cab8d0.png": "/celeritasapps/static/media/WhiteClockDark.71cab8d0.png",
-    "static/media/WhiteClockLight.354d5743.png": "/celeritasapps/static/media/WhiteClockLight.354d5743.png",
+    "static/media/WhiteClockDark.329c895e.png": "/celeritasapps/static/media/WhiteClockDark.329c895e.png",
+    "static/media/WhiteClockLight.23076f16.png": "/celeritasapps/static/media/WhiteClockLight.23076f16.png",
     "static/media/Yellow.89a8d34d.png": "/celeritasapps/static/media/Yellow.89a8d34d.png",
     "static/media/YellowClockDark.8889f905.png": "/celeritasapps/static/media/YellowClockDark.8889f905.png",
     "static/media/YellowClockLight.88c383bf.png": "/celeritasapps/static/media/YellowClockLight.88c383bf.png"
@@ -96,6 +98,6 @@
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.e41c6e7d.chunk.js",
     "static/css/main.757a1ac3.chunk.css",
-    "static/js/main.cf06d84e.chunk.js"
+    "static/js/main.033e3cc9.chunk.js"
   ]
 }
