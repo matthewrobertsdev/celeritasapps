@@ -13,7 +13,9 @@ import BlueClockImage from "../../resources/LightModeClockMedium/BlueClockLight.
 import PurpleClockImage from "../../resources/LightModeClockMedium/PurpleClockLight.png";
 import PinkClockImage from "../../resources/LightModeClockMedium/PinkClockLight.png";
 import BrownClockImage from "../../resources/LightModeClockMedium/BrownClockLight.png";
+import BlackClockImage from "../../resources/LightModeClockMedium/BlackClockLight.png";
 import GrayClockImage from "../../resources/LightModeClockMedium/GrayClockLight.png";
+import SystemLightClockImage from "../../resources/LightModeClockMedium/SystemLightClockLight.png";
 import WhiteClockImage from "../../resources/LightModeClockMedium/WhiteClockLight.png";
 
 //import Carousel and its css
@@ -53,7 +55,13 @@ export default function ClockSuiteLightColors() {
             <img src={BrownClockImage} alt="Clock Suite Brown Color Scheme in Light Mode" />
           </div>
           <div>
+            <img src={BlackClockImage} alt="Clock Suite Black Color Scheme in Light Mode" />
+          </div>
+          <div>
             <img src={GrayClockImage} alt="Clock Suite Gray Color Scheme in Light Mode" />
+          </div>
+          <div>
+            <img src={SystemLightClockImage} alt="Clock Suite System Color Scheme in Light Mode" />
           </div>
           <div>
             <img src={WhiteClockImage} alt="Clock Suite White Color Scheme in Light Mode" />

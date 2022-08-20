@@ -19,6 +19,7 @@ import AppsPage from './pages/AppsPage';
 import ClockSuitePage from './pages/ClockSuitePage';
 import ContactCardsPage from './pages/ContactCardsPage';
 import SpiffyClockPage from './pages/SpiffyClockPage';
+import MathStudentPage from './pages/MathStudentPage'
 import ContactPage from './pages/ContactPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import ClockSuitePrivacyPolicy from './pages/ClockSuitePrivacyPolicy';
@@ -28,6 +29,8 @@ import ContactCards_FAQ_Page from './pages/ContactCards_FAQ_Page';
 import SpiffyClock_FAQ_Page from './pages/SpiffyClock_FAQ_Page';
 import ContactCardsPrivacyPolicy from './pages/ContactCardsPrivacyPolicy';
 import SpiffyClockPrivacyPolicy from './pages/SpiffyClockPrivacyPolicy';
+import MathStudentPrivacyPolicy from './pages/MathStudentPrivacyPolicy';
+
 
 export default function AppRouter() {
   return (
@@ -40,11 +43,13 @@ export default function AppRouter() {
         <Route path="/clocksuite" exact component={ClockSuitePage} />
         <Route path="/contactcards" exact component={ContactCardsPage} />
         <Route path="/spiffyclock" exact component={SpiffyClockPage} />
+        <Route path="/mathstudent" exact component={MathStudentPage} />
         <Route path="/contact" exact component={ContactPage} />
         <Route path="/privacy" exact component={PrivacyPolicyPage} />
         <Route path="/privacy/clocksuite" exact component={ClockSuitePrivacyPolicy} />
         <Route path="/privacy/contactcards" exact component={ContactCardsPrivacyPolicy} />
-        <Route path="/privacy/spiffyclock" exact component={SpiffyClockPrivacyPolicy} />                                     
+        <Route path="/privacy/spiffyclock" exact component={SpiffyClockPrivacyPolicy} />   
+        <Route path="/privacy/mathstudent" exact component={MathStudentPrivacyPolicy} />                                   
         <Route path="/faq" exact component={FAQ_Page} />
         <Route path="/faq/clocksuite" exact component={ClockSuite_FAQ_Page} />
         <Route path="/faq/contactcards" exact component={ContactCards_FAQ_Page} />
