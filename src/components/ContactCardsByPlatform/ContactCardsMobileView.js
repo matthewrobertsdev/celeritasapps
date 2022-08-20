@@ -9,10 +9,6 @@ import ContactCardsMain from "../../resources/ContactCardsiPhone/ContactCardsMai
 import ContactCardsQRCode from "../../resources/ContactCardsiPhone/ContactCardsQRCode.png";
 import ContactCardsDetail from "../../resources/ContactCardsiPhone/ContactCardsDetail.png";
 import ContactCardsFields1 from "../../resources/ContactCardsiPhone/ContactCardsFields1.png";
-import ContactCardsFields2 from "../../resources/ContactCardsiPhone/ContactCardsFields2.png";
-import ContactCardsFields3 from "../../resources/ContactCardsiPhone/ContactCardsFields3.png";
-import ContactCardsFields4 from "../../resources/ContactCardsiPhone/ContactCardsFields4.png";
-import ContactCardsFields5 from "../../resources/ContactCardsiPhone/ContactCardsFields5.png";
 import ContactCardsWidget from "../../resources/ContactCardsiPhone/ContactCardsWidget.png";
 import ContactCardsSiri from "../../resources/ContactCardsiPhone/ContactCardsSiri.png";
 

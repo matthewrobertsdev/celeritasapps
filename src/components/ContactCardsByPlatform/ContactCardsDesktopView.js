@@ -6,14 +6,8 @@ import React from 'react'
 //import images
 import DownloadOnMacAppStore from '../../resources/DownloadOnMacAppStore.png';
 import ContactCardsMain1 from "../../resources/ContactCardsMac/ContactCardsMain1.png";
-import ContactCardsMain2 from "../../resources/ContactCardsMac/ContactCardsMain2.png";
 import ContactCardsQRCode from "../../resources/ContactCardsMac/ContactCardsQRCode.png";
 import ContactCardsFields1 from "../../resources/ContactCardsMac/ContactCardsFields1.png";
-import ContactCardsFields2 from "../../resources/ContactCardsMac/ContactCardsFields2.png";
-import ContactCardsFields3 from "../../resources/ContactCardsMac/ContactCardsFields3.png";
-import ContactCardsFields4 from "../../resources/ContactCardsMac/ContactCardsFields4.png";
-import ContactCardsFields5 from "../../resources/ContactCardsMac/ContactCardsFields5.png";
-import ContactCardsFields6 from "../../resources/ContactCardsMac/ContactCardsFields6.png";
 import ContactCardsWidget from "../../resources/ContactCardsMac/ContactCardsWidget.png";
 
 //import Carousel
