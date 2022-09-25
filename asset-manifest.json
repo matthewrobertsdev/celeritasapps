@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/celeritasapps/static/css/main.757a1ac3.chunk.css",
-    "main.js": "/celeritasapps/static/js/main.66e87a82.chunk.js",
-    "main.js.map": "/celeritasapps/static/js/main.66e87a82.chunk.js.map",
-    "runtime-main.js": "/celeritasapps/static/js/runtime-main.ed4334ef.js",
-    "runtime-main.js.map": "/celeritasapps/static/js/runtime-main.ed4334ef.js.map",
+    "main.js": "/celeritasapps/static/js/main.3d6b1665.chunk.js",
+    "main.js.map": "/celeritasapps/static/js/main.3d6b1665.chunk.js.map",
+    "runtime-main.js": "/celeritasapps/static/js/runtime-main.439de6cd.js",
+    "runtime-main.js.map": "/celeritasapps/static/js/runtime-main.439de6cd.js.map",
     "static/css/2.ed1298f3.chunk.css": "/celeritasapps/static/css/2.ed1298f3.chunk.css",
-    "static/js/2.e41c6e7d.chunk.js": "/celeritasapps/static/js/2.e41c6e7d.chunk.js",
-    "static/js/2.e41c6e7d.chunk.js.map": "/celeritasapps/static/js/2.e41c6e7d.chunk.js.map",
+    "static/js/2.3d7c6789.chunk.js": "/celeritasapps/static/js/2.3d7c6789.chunk.js",
+    "static/js/2.3d7c6789.chunk.js.map": "/celeritasapps/static/js/2.3d7c6789.chunk.js.map",
     "index.html": "/celeritasapps/index.html",
     "static/css/2.ed1298f3.chunk.css.map": "/celeritasapps/static/css/2.ed1298f3.chunk.css.map",
     "static/css/main.757a1ac3.chunk.css.map": "/celeritasapps/static/css/main.757a1ac3.chunk.css.map",
-    "static/js/2.e41c6e7d.chunk.js.LICENSE.txt": "/celeritasapps/static/js/2.e41c6e7d.chunk.js.LICENSE.txt",
+    "static/js/2.3d7c6789.chunk.js.LICENSE.txt": "/celeritasapps/static/js/2.3d7c6789.chunk.js.LICENSE.txt",
     "static/media/AlarmSetUp.c149c63f.png": "/celeritasapps/static/media/AlarmSetUp.c149c63f.png",
     "static/media/AnalogClock.388ebe70.png": "/celeritasapps/static/media/AnalogClock.388ebe70.png",
     "static/media/BlackClockDark.c9ce3a71.png": "/celeritasapps/static/media/BlackClockDark.c9ce3a71.png",
@@ -85,10 +85,10 @@
     "static/media/YellowClockLight.88c383bf.png": "/celeritasapps/static/media/YellowClockLight.88c383bf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed4334ef.js",
+    "static/js/runtime-main.439de6cd.js",
     "static/css/2.ed1298f3.chunk.css",
-    "static/js/2.e41c6e7d.chunk.js",
+    "static/js/2.3d7c6789.chunk.js",
     "static/css/main.757a1ac3.chunk.css",
-    "static/js/main.66e87a82.chunk.js"
+    "static/js/main.3d6b1665.chunk.js"
   ]
 }
