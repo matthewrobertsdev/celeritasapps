@@ -34,8 +34,7 @@ import SpiffyClockPrivacyPolicy from './pages/SpiffyClockPrivacyPolicy';
 import MathStudentPrivacyPolicy from './pages/MathStudentPrivacyPolicy';
 import SwiftUIDesignPrivacyPolicy from './pages/SwiftUIDesignPrivacyPolicy';
 import FilterArtPrivacyPolicy from './pages/FilterArtPrivacyPolicy';
-
-
+import FilterArt_FAQ_Page from './pages/FilterArt_FAQ_Page';
 
 export default function AppRouter() {
   return (
@@ -63,6 +62,7 @@ export default function AppRouter() {
         <Route path="/faq/clocksuite" exact component={ClockSuite_FAQ_Page} />
         <Route path="/faq/contactcards" exact component={ContactCards_FAQ_Page} />
         <Route path="/faq/spiffyclock" exact component={SpiffyClock_FAQ_Page} />
+        <Route path="/faq/filterart" exact component={FilterArt_FAQ_Page} />
         <Route component={HomePage} />
       </Switch>
       <Footer/>
