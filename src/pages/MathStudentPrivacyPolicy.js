@@ -9,7 +9,7 @@ import MathStudent256 from "../resources/MathStudent256.png";
 //import components
 import AppIconWithTitle from '../components/AppIconWithTitle'
 
-export default function ClockSuitePrivacyPolicy() {
+export default function MathStudentPrivacyPolicy() {
   useEffect(()=>{document.title = "Celeritas Apps | Privacy Policy"})
   return (
     <main className={'main-background main-blue'}>

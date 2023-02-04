@@ -4,16 +4,16 @@
 import React, { useEffect } from 'react';
 
 //import components
-import MathStudentHeader from "../components/MathStudentHeader";
+import SwiftUIDesignHeader from "../components/SwiftUIDesignHeader";
 
 
 export default function MathStudentPage() {
-  useEffect(()=>{document.title = "Math Student"})
+  useEffect(()=>{document.title = "SwiftUI Design"})
   return (
     <main>
       <div className={'main-background main-blue'}>
         <div className="main-margin">
-          <MathStudentHeader/>
+          <SwiftUIDesignHeader/>
         </div>
       </div>
     </main>
