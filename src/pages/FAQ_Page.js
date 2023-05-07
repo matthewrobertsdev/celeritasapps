@@ -5,6 +5,7 @@ import React, { useEffect } from 'react';
 
 //import images
 import ClockSuite256 from "../resources/ClockSuite256.png";
+import FilterArt256 from "../resources/FilterArt256.png";
 import ContactCards256 from "../resources/ContactCards256.png";
 import SpiffyClock256 from "../resources/SpiffyClock256.png";
 
@@ -25,12 +26,16 @@ export default function FAQ_Page() {
                 alt='Clock Suite App Icon' name='FAQ for Clock Suite' />
       <br/>
       <br/>
-      <SmallAppIconLink image={ContactCards256} relativeLink='/faq/contactcards'
-                alt='Contact Cards App Icon' name='FAQ for Contact Cards' />
+      <SmallAppIconLink image={FilterArt256} relativeLink='/faq/filterart'
+                alt='Filter Art App Icon' name='FAQ for Filter Art' />
       <br/>
       <br/>
       <SmallAppIconLink image={SpiffyClock256} relativeLink='/faq/spiffyclock'
                 alt='Spiffy Clock App Icon' name='FAQ for Spiffy Clock' />
+      <br/>
+      <br/>
+      <SmallAppIconLink image={ContactCards256} relativeLink='/faq/contactcards'
+                alt='Contact Cards App Icon' name='FAQ for Contact Cards' />
       <br/>
       <br/>
       <hr className='main-margin'/>

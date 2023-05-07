@@ -22,8 +22,14 @@ export default function ContactCards_FAQ_Page() {
         name='FAQ for Filter Art' id='filterart'/>
       <br/>
       <h2 className="text-align-center">
-        FAQ for Filter Art has not been created yet.
+        Question: What is a filter in Filter Art?
       </h2>
+      <h3 className="main-margin">
+        Answer: Filter takes on two meanings in Filter Art.  First it is any of the individual properties 
+        you can edit (hue, contrast, invert colors, color multiply, saturation, brightness, grayscale, 
+        opacity, and blur).  Second, it is the conbination of all these properties that can be applied 
+        to an image or saved for future use.
+      </h3>
       <br/>
       <hr className='main-margin'/>
       <br/>

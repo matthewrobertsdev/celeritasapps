@@ -9,7 +9,7 @@ export default function Footer() {
       <br/>
       <br/>
       <div className="text-align-center copyright">
-        Copyright  © 2020-2022  Matt Roberts
+        Copyright  © 2020-2023  Matt Roberts
       </div>
       <br/>
       <br/>

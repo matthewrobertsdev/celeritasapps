@@ -5,9 +5,8 @@ import React, { useEffect } from 'react';
 
 //import images
 import ClockSuite256 from "../resources/ClockSuite256.png";
-import ContactCards256 from "../resources/ContactCards256.png";
+import FilterArt256 from "../resources/FilterArt256.png";
 import SpiffyClock256 from "../resources/SpiffyClock256.png";
-
 
 //import components
 import SmallAppIconLink from '../components/SmallAppIconLink'
@@ -28,12 +27,13 @@ export default function AppsPage() {
         custom color of your choosing, and with dark mode and light mode 
         and built-in sounds or songs you own for alerts.
       </h2>
-      <SmallAppIconLink image={ContactCards256} relativeLink='/contactcards'
-        alt='Contact Cards App Icon' name='Contact Cards' />
+      <SmallAppIconLink image={FilterArt256} relativeLink='/filterart'
+        alt='Filter Art App Icon' name='Filter Art' />
       <h2 className="ten-percent-margin">
-        Have multiple contact cards for yourself so you can share what you 
-        want with whom you want, whether or not they have the app.  Share 
-        virtually or by QR code.
+      Filter Art lets you add filters to your photos or images to get amazing results! 
+      It lets you apply a series of filters and then save or share your image. 
+      You can do anything, from using filters to enhance your image, to making it 
+      wildly different.
       </h2>
       <SmallAppIconLink image={SpiffyClock256} relativeLink='/spiffyclock'
         alt='Spiffy Clock App Icon' name='Spiffy Clock' />
